@@ -227,9 +227,6 @@ importers:
       identity-obj-proxy:
         specifier: 3.0.0
         version: 3.0.0
-      jest-axe:
-        specifier: 8.0.0
-        version: 8.0.0
       lint-staged:
         specifier: 15.2.2
         version: 15.2.2
@@ -281,6 +278,9 @@ importers:
       vitest:
         specifier: 1.6.0
         version: 1.6.0(@types/node@18.19.33)(@vitest/ui@1.6.0)(happy-dom@14.11.0)(jsdom@24.0.0)(terser@5.31.0)
+      vitest-axe:
+        specifier: 0.1.0
+        version: 0.1.0(vitest@1.6.0(@types/node@18.19.33)(@vitest/ui@1.6.0)(happy-dom@14.11.0)(jsdom@24.0.0)(terser@5.31.0))
       vitest-canvas-mock:
         specifier: 0.3.3
         version: 0.3.3(vitest@1.6.0(@types/node@18.19.33)(@vitest/ui@1.6.0)(happy-dom@14.11.0)(jsdom@24.0.0)(terser@5.31.0))
@@ -3615,10 +3615,6 @@ packages:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}
     engines: {node: '>=4'}
 
-  axe-core@4.7.2:
-    resolution: {integrity: sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==}
-    engines: {node: '>=4'}
-
   axe-core@4.9.0:
     resolution: {integrity: sha512-H5orY+M2Fr56DWmMFpMrq5Ge93qjNdPVqzBv5gWK3aD1OvjBEJlEzxf09z93dGVQeI0LiW+aCMIx1QtShC/zUw==}
     engines: {node: '>=4'}
@@ -5785,10 +5781,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  jest-axe@8.0.0:
-    resolution: {integrity: sha512-4kNcNn7J0jPO4jANEYZOHeQ/tSBvkXS+MxTbX1CKbXGd0+ZbRGDn/v/8IYWI/MmYX15iLVyYRnRev9X3ksePWA==}
-    engines: {node: '>= 14.0.0'}
-
   jest-canvas-mock@2.5.2:
     resolution: {integrity: sha512-vgnpPupjOL6+L5oJXzxTxFrlGEIbHdZqFU+LFNdtLxZ3lRDCl17FlTMM7IatoRQkrcyOTMlDinjUguqmQ6bR2A==}
 
@@ -5848,10 +5840,6 @@ packages:
 
   jest-leak-detector@29.7.0:
     resolution: {integrity: sha512-kYA8IJcSYtST2BY9I+SMC32nDpBT3J2NvWJx8+JCuCdl/CR1I4EKUJROiP8XtCcxqgTTBGJNdbB1A8XRKbTetw==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-
-  jest-matcher-utils@29.2.2:
-    resolution: {integrity: sha512-4DkJ1sDPT+UX2MR7Y3od6KtvRi9Im1ZGLGgdLFLm4lPexbTaCgJW5NN3IOXlQHF7NSHY/VHhflQ+WoKtD/vyCw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
   jest-matcher-utils@29.7.0:
@@ -6108,6 +6096,9 @@ packages:
   locate-path@7.2.0:
     resolution: {integrity: sha512-gvVijfZvn7R+2qyPX8mAuKcFGDf6Nc61GdvGafQsHL0sBIxfKzA+usWn4GFC/bk+QdwPUD4kWFJLhElipq+0VA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
   lodash.camelcase@4.3.0:
     resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==}
@@ -8440,6 +8431,11 @@ packages:
         optional: true
       terser:
         optional: true
+
+  vitest-axe@0.1.0:
+    resolution: {integrity: sha512-jvtXxeQPg8R/2ANTY8QicA5pvvdRP4F0FsVUAHANJ46YCDASie/cuhlSzu0DGcLmZvGBSBNsNuK3HqfaeknyvA==}
+    peerDependencies:
+      vitest: '>=0.16.0'
 
   vitest-canvas-mock@0.3.3:
     resolution: {integrity: sha512-3P968tYBpqYyzzOaVtqnmYjqbe13576/fkjbDEJSfQAkHtC5/UjuRHOhFEN/ZV5HVZIkaROBUWgazDKJ+Ibw+Q==}
@@ -12962,8 +12958,6 @@ snapshots:
 
   axe-core@4.7.0: {}
 
-  axe-core@4.7.2: {}
-
   axe-core@4.9.0: {}
 
   axobject-query@3.2.1:
@@ -15494,13 +15488,6 @@ snapshots:
       filelist: 1.0.4
       minimatch: 3.1.2
 
-  jest-axe@8.0.0:
-    dependencies:
-      axe-core: 4.7.2
-      chalk: 4.1.2
-      jest-matcher-utils: 29.2.2
-      lodash.merge: 4.6.2
-
   jest-canvas-mock@2.5.2:
     dependencies:
       cssfontparser: 1.2.1
@@ -15647,13 +15634,6 @@ snapshots:
       jest-get-type: 29.6.3
       pretty-format: 29.7.0
     optional: true
-
-  jest-matcher-utils@29.2.2:
-    dependencies:
-      chalk: 4.1.2
-      jest-diff: 29.7.0
-      jest-get-type: 29.6.3
-      pretty-format: 29.7.0
 
   jest-matcher-utils@29.7.0:
     dependencies:
@@ -16059,6 +16039,8 @@ snapshots:
   locate-path@7.2.0:
     dependencies:
       p-locate: 6.0.0
+
+  lodash-es@4.17.21: {}
 
   lodash.camelcase@4.3.0: {}
 
@@ -18715,6 +18697,16 @@ snapshots:
       '@types/node': 18.19.33
       fsevents: 2.3.3
       terser: 5.31.0
+
+  vitest-axe@0.1.0(vitest@1.6.0(@types/node@18.19.33)(@vitest/ui@1.6.0)(happy-dom@14.11.0)(jsdom@24.0.0)(terser@5.31.0)):
+    dependencies:
+      aria-query: 5.3.0
+      axe-core: 4.9.0
+      chalk: 5.3.0
+      dom-accessibility-api: 0.5.16
+      lodash-es: 4.17.21
+      redent: 3.0.0
+      vitest: 1.6.0(@types/node@18.19.33)(@vitest/ui@1.6.0)(happy-dom@14.11.0)(jsdom@24.0.0)(terser@5.31.0)
 
   vitest-canvas-mock@0.3.3(vitest@1.6.0(@types/node@18.19.33)(@vitest/ui@1.6.0)(happy-dom@14.11.0)(jsdom@24.0.0)(terser@5.31.0)):
     dependencies:
