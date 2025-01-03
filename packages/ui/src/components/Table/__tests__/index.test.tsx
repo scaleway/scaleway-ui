@@ -423,14 +423,9 @@ describe('Table', () => {
 
     fireEvent.keyDown(document, { key: 'Shift', code: 'ShiftLeft' })
 
-    // Test hovering
-    fireEvent.mouseOver(firstRowCheckbox, { shiftKey: true })
-    fireEvent.mouseOver(secondRowCheckbox, { shiftKey: true })
-    fireEvent.mouseOver(thirdRowCheckbox, { shiftKey: true })
-
     fireEvent.keyUp(document, { key: 'Shift', code: 'ShiftLeft' })
 
-    fireEvent.click(thirdRowCheckbox)
+    fireEvent.click(thirdRowCheckbox, { shiftKey: true })
 
     expect(firstRowCheckbox).toBeChecked()
     expect(secondRowCheckbox).toBeChecked()

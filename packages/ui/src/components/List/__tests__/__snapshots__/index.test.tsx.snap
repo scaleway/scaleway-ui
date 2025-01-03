@@ -14167,8 +14167,8 @@ exports[`List > Should render correctly with selectable with shift click for mul
             </td>
           </tr>
           <tr
-            class="emotion-41 emotion-42"
-            data-highlight="false"
+            class="emotion-45 emotion-46"
+            data-highlight="true"
             tabindex="-1"
           >
             <td
@@ -14179,12 +14179,12 @@ exports[`List > Should render correctly with selectable with shift click for mul
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-48 emotion-49 emotion-12"
-                  data-checked="false"
+                  class="emotion-52 emotion-53 emotion-12"
+                  data-checked="true"
                   data-error="false"
                 >
                   <input
-                    aria-checked="false"
+                    aria-checked="true"
                     aria-invalid="false"
                     aria-label="select"
                     class="emotion-13 emotion-14"
