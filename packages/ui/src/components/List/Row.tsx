@@ -231,9 +231,9 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
       registerSelectableRow,
       selectedRowIds,
       expandButton,
-      mapCheckbox,
       inRange,
       columns,
+      refList,
     } = useListContext()
 
     const theme = useTheme()
@@ -277,16 +277,13 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
     const canClickRowToExpand = !disabled && !!expandable && !expandButton
 
     useEffect(() => {
+      const refAtEffectStart = refList.current
       const { current } = checkboxRef
 
-      if (current) {
-        mapCheckbox.set(id, current)
+      if (refAtEffectStart && current && !refAtEffectStart.includes(current)) {
+        refList.current.push(current)
       }
-
-      return () => {
-        mapCheckbox.delete(id)
-      }
-    }, [mapCheckbox, id])
+    }, [refList])
 
     const childrenLength =
       Children.count(children) + (selectable ? 1 : 0) + (expandButton ? 1 : 0)

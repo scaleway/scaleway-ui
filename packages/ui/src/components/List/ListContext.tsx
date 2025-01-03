@@ -12,13 +12,13 @@ import type {
   ComponentProps,
   Dispatch,
   ReactNode,
+  RefObject,
   SetStateAction,
 } from 'react'
 import type { Checkbox } from '../Checkbox'
 import type { ColumnProps } from './types'
 
 type RowState = Record<string | number, boolean>
-type MapCheckbox = Map<string | number, HTMLInputElement>
 
 export type ListContextValue = {
   // ============ Expandable logic ============
@@ -40,13 +40,13 @@ export type ListContextValue = {
   subscribeHandler: () => void
   columns: ColumnProps[]
   inRange: Set<number | string>
-  mapCheckbox: MapCheckbox
   selectable: boolean
   selectAll: () => void
   selectedRowIds: RowState
   selectRow: (rowId: string) => void
   unselectAll: () => void
   unselectRow: (rowId: string) => void
+  refList: RefObject<HTMLInputElement[]>
 }
 
 const ListContext = createContext<ListContextValue | undefined>(undefined)
@@ -86,11 +86,9 @@ export const ListProvider = ({
 }: ListProviderProps) => {
   const [expandedRowIds, setExpandedRowIds] = useState<RowState>({})
   const [selectedRowIds, setSelectedRowIds] = useState<RowState>({})
-  const [lastCheckedIndex, setLastCheckedIndex] = useState<
-    null | (number | string)
-  >(null)
+  const [lastCheckedCheckbox, setLastCheckedCheckbox] = useState<string>()
   const [inRange, setInRange] = useState<Set<number | string>>(new Set([]))
-  const refList = useRef<MapCheckbox>(new Map())
+  const refList = useRef<HTMLInputElement[]>([])
 
   const registerExpandableRow = useCallback(
     (rowId: string, expanded = false) => {
@@ -196,47 +194,46 @@ export const ListProvider = ({
     const handlers: (() => void)[] = []
 
     if (refList.current) {
-      const handleHover = (checkbox: HTMLInputElement, event: MouseEvent) => {
-        const isShiftPressed = event.shiftKey
-
-        const isHoverActive =
-          isShiftPressed && lastCheckedIndex !== null && !checkbox.disabled
-
-        if (isHoverActive) {
-          setInRange(prev => new Set([...prev, checkbox.value]))
-        }
-
-        if (!lastCheckedIndex && !checkbox.disabled) {
-          setLastCheckedIndex(checkbox.value)
-        }
+      // Ensure that only existing checkboxes are in refList
+      if (refList.current) {
+        refList.current = refList.current.filter(checkbox =>
+          document.contains(checkbox),
+        )
       }
+      const handleClickRange = (
+        currentCheckbox: HTMLInputElement,
+        index: number,
+        isShiftPressed: boolean,
+      ) => {
+        if (isShiftPressed) {
+          const checkboxesInRange: string[] = []
 
-      const handleClickRange = (checkbox: HTMLInputElement) => {
-        const shouldShiftEvent = inRange.size > 0
-        const isClickInsideRange = inRange.has(checkbox.value)
+          // Get the index of the lastCheckedCheckbox
+          const targetCheckbox = refList.current.find(
+            checkbox => checkbox.value === lastCheckedCheckbox,
+          )
+          const lastCheckedIndex = targetCheckbox
+            ? refList.current.indexOf(targetCheckbox)
+            : undefined
 
-        if (shouldShiftEvent && isClickInsideRange) {
-          let checkboxRows: RowState = {}
+          if (lastCheckedIndex !== undefined) {
+            const start = Math.min(lastCheckedIndex, index)
+            const end =
+              Math.max(lastCheckedIndex, index) +
+              (Math.max(lastCheckedIndex, index) === index ? 0 : 1)
 
-          refList.current.forEach((value, key) => {
-            if (inRange.has(key)) {
-              checkboxRows = {
-                ...checkboxRows,
-                // handle the conflict event ( click and onChange in the same time on the last checkbox click)
-                [key]: key === checkbox.value ? !value.checked : value.checked,
+            refList.current.forEach((checkbox, key) => {
+              if (start < key && key < end) {
+                if (!checkbox.disabled) {
+                  checkboxesInRange.push(checkbox.value)
+                }
               }
-            }
-          })
-          const state = checkStateOfCheckboxs(checkboxRows)
-          const checkboxIds = Object.keys(checkboxRows)
+            })
 
-          if (state === true) {
-            selectRows(checkboxIds, false)
+            selectRows(checkboxesInRange, currentCheckbox.checked) //  (un)selects the rows in the range
+            setLastCheckedCheckbox(currentCheckbox.value)
           }
-          if ([false, 'indeterminate'].includes(state)) {
-            selectRows(checkboxIds, true)
-          }
-        }
+        } else if (index === 0) setLastCheckedCheckbox(undefined)
 
         /**
          * Handle the case when there is multiple selected value during a time, and the user click without shift event
@@ -244,7 +241,7 @@ export const ListProvider = ({
         setTimeout(() => {
           // clean up
           setInRange(new Set([]))
-          setLastCheckedIndex(checkbox.value)
+          setLastCheckedCheckbox(currentCheckbox.value)
         }, 1)
       }
 
@@ -254,16 +251,12 @@ export const ListProvider = ({
         if (shouldHandleEvent) {
           selectRows([checkbox.value], !checkbox.checked)
         }
-        setLastCheckedIndex(checkbox.value)
+        setLastCheckedCheckbox(checkbox.value)
       }
 
-      refList.current.forEach(checkbox => {
-        function clickHandler(this: HTMLInputElement) {
-          handleClickRange(this)
-        }
-
-        function hoverHandler(this: HTMLInputElement, event: MouseEvent) {
-          handleHover(this, event)
+      refList.current.forEach((checkbox, index) => {
+        function clickHandler(this: HTMLInputElement, event: MouseEvent) {
+          handleClickRange(this, index, event.shiftKey)
         }
 
         function changeHandler(this: HTMLInputElement) {
@@ -272,12 +265,10 @@ export const ListProvider = ({
 
         checkbox.addEventListener('change', changeHandler)
         checkbox.addEventListener('click', clickHandler)
-        checkbox.addEventListener('mouseover', hoverHandler)
 
         handlers.push(() => {
           checkbox.removeEventListener('change', changeHandler)
           checkbox.removeEventListener('click', clickHandler)
-          checkbox.removeEventListener('mouseover', hoverHandler)
         })
       })
     }
@@ -285,7 +276,7 @@ export const ListProvider = ({
     return () => {
       handlers.forEach(cleanup => cleanup())
     }
-  }, [inRange, lastCheckedIndex, selectRows])
+  }, [inRange.size, lastCheckedCheckbox, selectRows])
 
   useEffect(subscribeHandler, [subscribeHandler])
 
@@ -300,7 +291,6 @@ export const ListProvider = ({
       expandedRowIds,
       expandRow,
       inRange,
-      mapCheckbox: refList.current,
       registerExpandableRow,
       registerSelectableRow,
       selectable,
@@ -309,6 +299,7 @@ export const ListProvider = ({
       selectRow,
       unselectAll,
       unselectRow,
+      refList,
     }),
     [
       allRowSelectValue,
