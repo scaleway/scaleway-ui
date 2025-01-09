@@ -1,68 +1,67 @@
+import type { StoryFn } from '@storybook/react'
+import { useState } from 'react'
 import { List } from '..'
 import { Button } from '../../Button'
 import { Stack } from '../../Stack'
 import { Text } from '../../Text'
-import { Template } from './Template.stories'
-import { data } from './resources'
+import { columns, data } from './resources'
 
-export const Selectable = Template.bind({})
+export const Selectable: StoryFn<typeof List> = args => {
+  const [clicked, setClick] = useState(true)
 
-Selectable.args = {
-  ...Template.args,
-  selectable: true,
-  children: (
+  return (
     <>
-      {data.map(planet => (
-        <List.Row
-          key={planet.id}
-          id={planet.id}
-          disabled={planet.id === 'mercury'}
-          selectDisabled={
-            planet.id === 'home-sweet-home'
-              ? "Earth isn't selectable"
-              : undefined
-          }
-          expandable={false}
-        >
-          <List.Cell>
-            {planet.name}
-            {planet.id === 'mercury'
-              ? ' (Not selectable because the row itself is disabled)'
-              : ''}
-            {planet.id === 'home-sweet-home'
-              ? ' (Not selectable because of prop `selectDisabled`)'
-              : ''}
-          </List.Cell>
-          <List.Cell>{planet.perihelion}AU</List.Cell>
-          <List.Cell>{planet.aphelion}AU</List.Cell>
-        </List.Row>
-      ))}
-      <List.SelectBar data={data} idKey="id">
-        {({ selectedItems, unselectAll }) => (
-          <Stack
-            direction="row"
-            alignItems="center"
-            justifyContent="space-between"
-            gap={2}
-          >
-            <Text variant="bodyStrong" as="p" sentiment="primary">
-              {selectedItems.length} item(s) selected
-            </Text>
-            <Button
-              size="small"
-              onClick={() => {
-                // oxlint-disable-next-line eslint/no-alert
-                alert('elements could be deleted')
-                unselectAll()
-              }}
+      <List {...args} columns={columns} selectable>
+        {data.map(planet =>
+          planet.id !== 'mars' || clicked ? (
+            <List.Row
+              key={planet.id}
+              id={planet.id}
+              expandable="Planet description"
             >
-              Delete
-            </Button>
-          </Stack>
+              <List.Cell>{planet.id}</List.Cell>
+              <List.Cell>{planet.name}</List.Cell>
+              <List.Cell>{planet.perihelion}AU</List.Cell>
+              <List.Cell>{planet.aphelion}AU</List.Cell>
+            </List.Row>
+          ) : null,
         )}
-      </List.SelectBar>
+
+        <List.SelectBar data={data} idKey="id">
+          {({ selectedItems, unselectAll }) => (
+            <Stack
+              direction="row"
+              alignItems="center"
+              justifyContent="space-between"
+              gap={2}
+            >
+              <Text variant="bodyStrong" as="p" sentiment="primary">
+                {selectedItems.length} item(s) selected (
+                {selectedItems.map(
+                  (item, index) => `${index > 0 ? ', ' : ''}${item.name}`,
+                )}
+                )
+              </Text>
+              <Button
+                size="small"
+                onClick={() => {
+                  // oxlint-disable-next-line eslint/no-alert
+                  alert('elements could be deleted')
+                  unselectAll()
+                }}
+              >
+                Delete
+              </Button>
+            </Stack>
+          )}
+        </List.SelectBar>
+      </List>
+
+      <button type="button" onClick={() => setClick(!clicked)}>
+        {clicked ? 'remove' : 'add'} mars as a planet
+      </button>
     </>
-  ),
+  )
 }
 
 Selectable.parameters = {

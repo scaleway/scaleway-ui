@@ -135,6 +135,7 @@ export const Row = ({
     inRange,
     columns,
     refList,
+    handleOnChange,
   } = useTableContext()
 
   const checkboxRowRef = useRef<HTMLInputElement>(null)
@@ -212,6 +213,7 @@ export const Row = ({
                   inRange={inRange?.has(id)}
                   disabled={selectDisabled !== undefined}
                   ref={checkboxRowRef}
+                  onChange={() => handleOnChange(id, selectedRowIds[id])}
                 />
               </Tooltip>
             </StyledCheckboxContainer>
