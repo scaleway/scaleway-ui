@@ -4002,10 +4002,10 @@ exports[`List > Should render correctly with info 1`] = `
 .emotion-12 {
   vertical-align: middle;
   fill: #727683;
-  height: 20px;
-  width: 20px;
-  min-width: 20px;
-  min-height: 20px;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-width: 1.25rem;
+  min-height: 1.25rem;
 }
 
 .emotion-12 .fillStroke {
