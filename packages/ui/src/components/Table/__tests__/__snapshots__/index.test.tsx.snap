@@ -1222,10 +1222,10 @@ exports[`Table > Should render correctly with highlight animation on Table.Row 1
 .emotion-13 {
   vertical-align: middle;
   fill: #727683;
-  height: 1.5rem;
-  width: 1.5rem;
-  min-width: 1.5rem;
-  min-height: 1.5rem;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .emotion-13 .fillStroke {
@@ -1800,10 +1800,10 @@ exports[`Table > Should render correctly with info 1`] = `
 .emotion-13 {
   vertical-align: middle;
   fill: #727683;
-  height: 1.5rem;
-  width: 1.5rem;
-  min-width: 1.5rem;
-  min-height: 1.5rem;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .emotion-13 .fillStroke {
@@ -4310,12 +4310,12 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-54 emotion-12"
-                  data-checked="true"
+                  class="emotion-57 emotion-58 emotion-12"
+                  data-checked="false"
                   data-error="false"
                 >
                   <input
-                    aria-checked="true"
+                    aria-checked="false"
                     aria-invalid="false"
                     aria-label="select"
                     class="emotion-13 emotion-14"

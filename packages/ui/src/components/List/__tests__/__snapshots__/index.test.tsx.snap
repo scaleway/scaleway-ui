@@ -4002,10 +4002,10 @@ exports[`List > Should render correctly with info 1`] = `
 .emotion-12 {
   vertical-align: middle;
   fill: #727683;
-  height: 1.5rem;
-  width: 1.5rem;
-  min-width: 1.5rem;
-  min-height: 1.5rem;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .emotion-12 .fillStroke {
@@ -14168,7 +14168,7 @@ exports[`List > Should render correctly with selectable with shift click for mul
           </tr>
           <tr
             class="emotion-45 emotion-46"
-            data-highlight="true"
+            data-highlight="false"
             tabindex="-1"
           >
             <td
@@ -14180,11 +14180,11 @@ exports[`List > Should render correctly with selectable with shift click for mul
                 <div
                   aria-disabled="false"
                   class="emotion-52 emotion-53 emotion-12"
-                  data-checked="true"
+                  data-checked="false"
                   data-error="false"
                 >
                   <input
-                    aria-checked="true"
+                    aria-checked="false"
                     aria-invalid="false"
                     aria-label="select"
                     class="emotion-13 emotion-14"

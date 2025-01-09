@@ -253,6 +253,7 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
       inRange,
       columns,
       refList,
+      handleOnChange,
     } = useListContext()
 
     const theme = useTheme()
@@ -358,6 +359,7 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
                     ref={checkboxRef}
                     disabled={isSelectDisabled}
                     inRange={inRange?.has(id)}
+                    onChange={() => handleOnChange(id, selectedRowIds[id])}
                   />
                 </Tooltip>
               </StyledCheckboxContainer>

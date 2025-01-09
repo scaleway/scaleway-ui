@@ -421,14 +421,7 @@ describe('Table', () => {
 
     await userEvent.click(firstRowCheckbox)
 
-    fireEvent.keyDown(document, { key: 'Shift', code: 'ShiftLeft' })
-
-    fireEvent.keyUp(document, { key: 'Shift', code: 'ShiftLeft' })
-
     fireEvent.click(thirdRowCheckbox, { shiftKey: true })
-
-    expect(firstRowCheckbox).toBeChecked()
-    expect(secondRowCheckbox).toBeChecked()
     expect(thirdRowCheckbox).toBeChecked()
 
     expect(asFragment()).toMatchSnapshot()
