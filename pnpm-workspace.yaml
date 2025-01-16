@@ -2,3 +2,4 @@ packages:
   - "packages/*"
   - "utils/*"
   - "examples/*"
+  - "e2e"

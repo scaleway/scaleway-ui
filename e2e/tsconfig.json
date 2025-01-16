@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src", "../../global.d.ts", "emotion.d.ts"],
+  "exclude": ["node_modules", "coverage", "dist"]
+}
