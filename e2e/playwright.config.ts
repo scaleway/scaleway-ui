@@ -4,7 +4,7 @@ import { defineConfig, devices } from '@playwright/test'
 
 const isCI = process.env['CI']
 
-const baseURL = process.env['BASE_URL'] ?? 'http://localhost:6006'
+const baseURL = process.env['BASE_URL'] ?? 'http://localhost:5173'
 
 const times = {
   '1min': 60 * 1000,

@@ -10,4 +10,15 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    rollupOptions: {
+      external: ['fsevents'],
+    },
+  },
+  server: {
+    // Sends all requests to index.html if file not found
+    fs: {
+      allow: ['.'], // or paths as needed
+    },
+  },
 })

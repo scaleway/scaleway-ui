@@ -1,9 +1,19 @@
 {
-  "extends": "../tsconfig.json",
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "@scaleway/tsconfig",
   "compilerOptions": {
-    "baseUrl": ".",
-    "allowImportingTsExtensions": true
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react",
+    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "types": ["vite/client"]
   },
-  "include": ["src", "../../global.d.ts", "emotion.d.ts"],
+  "include": ["global.d.ts", "emotion.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "coverage", "dist"]
 }
