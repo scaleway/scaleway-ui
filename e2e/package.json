@@ -17,7 +17,6 @@
     "@ultraviolet/fonts": "workspace:*",
     "@ultraviolet/form": "workspace:*",
     "@ultraviolet/icons": "workspace:*",
-    "@ultraviolet/themes": "workspace:*",
     "@ultraviolet/ui": "workspace:*",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -25,17 +24,17 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "11.13.5",
-    "@eslint/js": "9.17.0",
+    "@eslint/js": "9.18.0",
     "@playwright/test": "1.49.1",
-    "@types/react": "19.0.5",
+    "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "@vitejs/plugin-react": "4.3.4",
-    "eslint": "9.17.0",
+    "eslint": "9.18.0",
     "eslint-plugin-react-hooks": "5.0.0",
     "eslint-plugin-react-refresh": "0.4.16",
     "globals": "15.14.0",
     "typescript": "5.7.3",
     "typescript-eslint": "^8.19.1",
-    "vite": "6.0.7"
+    "vite": "5.4.11"
   }
 }

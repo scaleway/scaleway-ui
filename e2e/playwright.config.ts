@@ -4,7 +4,7 @@ import { defineConfig, devices } from '@playwright/test'
 
 const isCI = process.env['CI']
 
-const baseURL = process.env['BASE_URL'] ?? 'http://localhost:5173'
+const baseURL = 'http://localhost:5173'
 
 const times = {
   '1min': 60 * 1000,
@@ -12,6 +12,13 @@ const times = {
 }
 
 export default defineConfig({
+  webServer: {
+    // it will start web app before running tests so you don't need to start it manually
+    command: 'pnpm install && pnpm run start',
+    url: 'http://localhost:5173',
+    stdout: 'ignore',
+    stderr: 'pipe',
+  },
   testDir: './tests',
   fullyParallel: true,
   forbidOnly: !!isCI,

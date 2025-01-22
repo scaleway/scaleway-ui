@@ -46,6 +46,11 @@
     "test:unit:coverage": {
       "dependsOn": ["build"],
       "passThroughEnv": ["VITEST_*"]
+    },
+    "start": {
+      "dependsOn": ["build"],
+      "persistent": true,
+      "cache": false
     }
   }
 }

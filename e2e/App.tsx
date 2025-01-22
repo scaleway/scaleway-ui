@@ -1,7 +1,6 @@
 import { ThemeProvider } from '@emotion/react'
 import '@ultraviolet/fonts/fonts.css'
-import { consoleLightTheme } from '@ultraviolet/themes'
-import { Text } from '@ultraviolet/ui'
+import { Text, theme } from '@ultraviolet/ui'
 import { lazy } from 'react'
 import {
   Link as ReactRouterLink,
@@ -57,7 +56,7 @@ const WelcomePage = () => (
 )
 
 const App = () => (
-  <ThemeProvider theme={consoleLightTheme}>
+  <ThemeProvider theme={theme}>
     <Router>
       <Routes>
         <Route path="/" element={<WelcomePage />} />
