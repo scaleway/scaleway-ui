@@ -87,6 +87,6 @@
     "@ultraviolet/icons": "workspace:*",
     "@ultraviolet/themes": "workspace:*",
     "@ultraviolet/ui": "workspace:*",
-    "react-intersection-observer": "9.14.1"
+    "react-intersection-observer": "9.15.0"
   }
 }

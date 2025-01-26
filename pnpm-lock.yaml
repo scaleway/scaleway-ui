@@ -551,8 +551,8 @@ importers:
         specifier: workspace:*
         version: link:../ui
       react-intersection-observer:
-        specifier: 9.14.1
-        version: 9.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 9.15.0
+        version: 9.15.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
       '@babel/core':
         specifier: 7.26.0
@@ -700,8 +700,8 @@ importers:
         specifier: 19.0.0
         version: 19.0.0
       react-intersection-observer:
-        specifier: 9.14.1
-        version: 9.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 9.15.0
+        version: 9.15.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       vitest:
         specifier: 3.0.1
         version: 3.0.1(@types/node@22.10.7)(@vitest/ui@3.0.1)(happy-dom@16.3.0)(jsdom@25.0.1)(terser@5.31.0)
@@ -6892,8 +6892,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
 
-  react-intersection-observer@9.14.1:
-    resolution: {integrity: sha512-k1xIUn3sCQi3ugNeF64FJb3zwve5mcetvAUR9JazXeOmtap4IP2evN8rs+yf6SQ7F1QydsOGiqTmt+lySKZ9uA==}
+  react-intersection-observer@9.15.0:
+    resolution: {integrity: sha512-qul9TzGgZtHIHAsLOXnRfMWNYCrqjU87HMKhRjwC8l6XSxz2Bo0xmpq5pklaXGj+brx2gSMe8lp1K17mMP2Q8w==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -15815,7 +15815,7 @@ snapshots:
     dependencies:
       react: 19.0.0
 
-  react-intersection-observer@9.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-intersection-observer@9.15.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       react: 19.0.0
     optionalDependencies:
