@@ -172,7 +172,7 @@
     "identity-obj-proxy": "3.0.0",
     "jest-axe": "9.0.0",
     "lint-staged": "15.4.2",
-    "oxlint": "0.15.6",
+    "oxlint": "0.15.8",
     "postcss": "8.5.1",
     "publint": "0.3.2",
     "react": "19.0.0",
