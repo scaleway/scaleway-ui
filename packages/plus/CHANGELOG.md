@@ -1,5 +1,11 @@
 # @ultraviolet/plus
 
+## 0.23.0
+
+### Minor Changes
+
+- [#4708](https://github.com/scaleway/ultraviolet/pull/4708) [`d44d0dc`](https://github.com/scaleway/ultraviolet/commit/d44d0dcfd0d5ec850d0c0bf0a63cfbb67ae6bb3e) Thanks [@radhi-nasser-scaleway](https://github.com/radhi-nasser-scaleway)! - feat: add new prop `showToggleOption` to `SteppedListContainer`
+
 ## 0.22.10
 
 ### Patch Changes
