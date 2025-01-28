@@ -1,5 +1,5 @@
 import type { Theme } from '@emotion/react'
-import { keyframes, useTheme } from '@emotion/react'
+import { keyframes } from '@emotion/react'
 import styled from '@emotion/styled'
 import type { ReactNode } from 'react'
 import { Children, useCallback, useEffect, useRef } from 'react'
@@ -8,7 +8,7 @@ import { Checkbox } from '../Checkbox'
 import { Tooltip } from '../Tooltip'
 import { Cell } from './Cell'
 import { useTableContext } from './TableContext'
-import { SELECTABLE_CHECKBOX_SIZE } from './constants'
+import { EXPANDABLE_COLUMN_SIZE, SELECTABLE_CHECKBOX_SIZE } from './constants'
 import type { ColumnProps } from './types'
 
 const ExpandableWrapper = styled.tr`
@@ -87,16 +87,20 @@ const StyledTr = styled('tr', {
     )}
 `
 
-const NoPaddingCell = styled(Cell, {
-  shouldForwardProp: prop => !['maxWidth'].includes(prop),
-})<{ maxWidth?: string }>`
-  padding: 0;
-
-  &:first-of-type {
+const SelectableCell = styled.th`
     padding-left: ${({ theme }) => theme.space['2']};
-  }
 
-  max-width: ${({ maxWidth }) => maxWidth};
+    width: ${({ theme }) => theme.sizing[SELECTABLE_CHECKBOX_SIZE]};
+    min-width: ${({ theme }) => theme.sizing[SELECTABLE_CHECKBOX_SIZE]};
+`
+
+const ExpandableButtonCell = styled('th', {
+  shouldForwardProp: prop => !['nextToSelectableRow'].includes(prop),
+})<{ nextToSelectableRow: boolean }>`
+    padding-left: ${({ theme, nextToSelectableRow }) => theme.space[nextToSelectableRow ? '1' : '2']};
+
+    width: ${({ theme }) => theme.sizing[EXPANDABLE_COLUMN_SIZE]};
+    min-width: ${({ theme }) => theme.sizing[EXPANDABLE_COLUMN_SIZE]};
 `
 
 type RowProps = {
@@ -182,8 +186,6 @@ export const Row = ({
     }
   }, [mapCheckbox, id])
 
-  const theme = useTheme()
-
   const childrenLength =
     Children.count(children) + (selectable ? 1 : 0) + (expandButton ? 1 : 0)
 
@@ -198,7 +200,7 @@ export const Row = ({
         columnsStartAt={(selectable ? 1 : 0) + (expandButton ? 1 : 0)}
       >
         {selectable ? (
-          <NoPaddingCell maxWidth={theme.sizing[SELECTABLE_CHECKBOX_SIZE]}>
+          <SelectableCell>
             <StyledCheckboxContainer>
               <Tooltip
                 text={
@@ -218,10 +220,10 @@ export const Row = ({
                 />
               </Tooltip>
             </StyledCheckboxContainer>
-          </NoPaddingCell>
+          </SelectableCell>
         ) : null}
         {expandButton ? (
-          <NoPaddingCell>
+          <ExpandableButtonCell nextToSelectableRow={selectable}>
             <Button
               disabled={!expandable}
               icon={expandedRowIds[id] ? 'arrow-up' : 'arrow-down'}
@@ -232,7 +234,7 @@ export const Row = ({
               aria-label="expand"
               data-testid="list-expand-button"
             />
-          </NoPaddingCell>
+          </ExpandableButtonCell>
         ) : null}
         {children}
       </StyledTr>

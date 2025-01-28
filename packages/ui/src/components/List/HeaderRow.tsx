@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 import { Checkbox } from '../Checkbox'
 import { HeaderCell } from './HeaderCell'
 import { useListContext } from './ListContext'
-import { SELECTABLE_CHECKBOX_SIZE } from './constants'
+import { EXPANDABLE_COLUMN_SIZE, SELECTABLE_CHECKBOX_SIZE } from './constants'
 
 const StyledHeaderRow = styled.tr`
   /* List itself also apply style about common templating between HeaderRow and other Rows */
@@ -27,14 +27,20 @@ const StyledHeaderRow = styled.tr`
   }
 `
 
-const NoPaddingHeaderCell = styled(HeaderCell)`
+const SelectRowHeaderCell = styled(HeaderCell)`
   padding: 0;
+  padding-left: ${({ theme }) => theme.space['2']};
 
-  &:first-of-type {
-    padding-left: ${({ theme }) => theme.space['2']};
-  }
+  width: ${({ theme }) => theme.sizing[SELECTABLE_CHECKBOX_SIZE]};
+  min-width: ${({ theme }) => theme.sizing[SELECTABLE_CHECKBOX_SIZE]};
+`
 
-  max-width: ${({ theme }) => theme.sizing[SELECTABLE_CHECKBOX_SIZE]}
+const ExpandableHeaderCell = styled(HeaderCell)`
+  padding: 0;
+  padding-left: ${({ theme }) => theme.space['2']};
+
+  width: ${({ theme }) => theme.sizing[EXPANDABLE_COLUMN_SIZE]};
+  min-width: ${({ theme }) => theme.sizing[EXPANDABLE_COLUMN_SIZE]};
 `
 
 type RowProps = {
@@ -52,7 +58,7 @@ export const HeaderRow = ({ children, hasSelectAllColumn }: RowProps) => {
     <thead>
       <StyledHeaderRow>
         {hasSelectAllColumn ? (
-          <NoPaddingHeaderCell>
+          <SelectRowHeaderCell>
             <Checkbox
               name="list-select-checkbox"
               value="all"
@@ -61,10 +67,10 @@ export const HeaderRow = ({ children, hasSelectAllColumn }: RowProps) => {
               onChange={selectAllHandler}
               disabled={selectableRowCount === 0}
             />
-          </NoPaddingHeaderCell>
+          </SelectRowHeaderCell>
         ) : null}
         {expandButton ? (
-          <NoPaddingHeaderCell>{null}</NoPaddingHeaderCell>
+          <ExpandableHeaderCell>{null}</ExpandableHeaderCell>
         ) : null}
         {children}
       </StyledHeaderRow>

@@ -1,4 +1,3 @@
-import { useTheme } from '@emotion/react'
 import styled from '@emotion/styled'
 import type { ReactNode } from 'react'
 import {
@@ -15,7 +14,7 @@ import { Checkbox } from '../Checkbox'
 import { Tooltip } from '../Tooltip'
 import { Cell } from './Cell'
 import { useListContext } from './ListContext'
-import { SELECTABLE_CHECKBOX_SIZE } from './constants'
+import { EXPANDABLE_COLUMN_SIZE, SELECTABLE_CHECKBOX_SIZE } from './constants'
 import type { ColumnProps } from './types'
 
 const ExpandableWrapper = styled.tr`
@@ -167,18 +166,20 @@ const StyledCheckboxContainer = styled.div`
   display: flex;
 `
 
-const NoPaddingCell = styled(Cell, {
-  shouldForwardProp: prop => !['maxWidth'].includes(prop),
-})<{
-  maxWidth: string
-}>`
+const SelectRowCell = styled(Cell)`
   padding: 0;
+  padding-left: ${({ theme }) => theme.space['2']};
 
-  &:first-of-type {
-    padding-left: ${({ theme }) => theme.space['2']};
-  }
+  width: ${({ theme }) => theme.sizing[SELECTABLE_CHECKBOX_SIZE]};
+  min-width: ${({ theme }) => theme.sizing[SELECTABLE_CHECKBOX_SIZE]};
+`
 
-  max-width: ${({ maxWidth }) => maxWidth};
+const ExpandableButtonCell = styled(Cell)`
+  padding: 0;
+  padding-left: ${({ theme }) => theme.space['2']};
+
+  width: ${({ theme }) => theme.sizing[EXPANDABLE_COLUMN_SIZE]};
+  min-width: ${({ theme }) => theme.sizing[EXPANDABLE_COLUMN_SIZE]};
 `
 
 const ExpandableCell = styled(Cell, {
@@ -235,8 +236,6 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
       inRange,
       columns,
     } = useListContext()
-
-    const theme = useTheme()
 
     const expandedRowId = useId()
 
@@ -321,10 +320,7 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
           columnsStartAt={(selectable ? 1 : 0) + (expandButton ? 1 : 0)}
         >
           {selectable ? (
-            <NoPaddingCell
-              preventClick={canClickRowToExpand}
-              maxWidth={theme.sizing[SELECTABLE_CHECKBOX_SIZE]}
-            >
+            <SelectRowCell preventClick={canClickRowToExpand}>
               <StyledCheckboxContainer>
                 <Tooltip
                   text={
@@ -344,10 +340,10 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
                   />
                 </Tooltip>
               </StyledCheckboxContainer>
-            </NoPaddingCell>
+            </SelectRowCell>
           ) : null}
           {expandButton ? (
-            <NoPaddingCell maxWidth={theme.sizing[SELECTABLE_CHECKBOX_SIZE]}>
+            <ExpandableButtonCell>
               <Button
                 disabled={disabled || !expandable}
                 icon={expandedRowIds[id] ? 'arrow-up' : 'arrow-down'}
@@ -358,7 +354,7 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
                 aria-label="expand"
                 data-testid="list-expand-button"
               />
-            </NoPaddingCell>
+            </ExpandableButtonCell>
           ) : null}
           {children}
         </StyledRow>

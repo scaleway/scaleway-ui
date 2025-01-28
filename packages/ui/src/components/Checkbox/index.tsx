@@ -400,49 +400,51 @@ export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
             </StyledIcon>
           ) : null}
 
-          <Stack gap={0.5} flex={1}>
-            <Stack gap={0.5} direction="row" alignItems="center" flex={1}>
-              {children ? (
-                <>
-                  {typeof children === 'string' ? (
-                    <StyledTextLabel
-                      as="label"
-                      variant="body"
-                      sentiment="neutral"
-                      prominence="default"
-                      htmlFor={localId}
-                    >
-                      {children}
-                    </StyledTextLabel>
-                  ) : (
-                    <StyledLabel htmlFor={localId}>{children}</StyledLabel>
-                  )}
-                </>
+          {!!children || required || !!helper || !!error ? (
+            <Stack gap={0.5} flex={1}>
+              <Stack gap={0.5} direction="row" alignItems="center" flex={1}>
+                {children ? (
+                  <>
+                    {typeof children === 'string' ? (
+                      <StyledTextLabel
+                        as="label"
+                        variant="body"
+                        sentiment="neutral"
+                        prominence="default"
+                        htmlFor={localId}
+                      >
+                        {children}
+                      </StyledTextLabel>
+                    ) : (
+                      <StyledLabel htmlFor={localId}>{children}</StyledLabel>
+                    )}
+                  </>
+                ) : null}
+                {required ? (
+                  <sup>
+                    <AsteriskIcon size={8} sentiment="danger" />
+                  </sup>
+                ) : null}
+              </Stack>
+
+              {helper ? (
+                <Text
+                  variant="caption"
+                  as="span"
+                  prominence="weak"
+                  sentiment="neutral"
+                >
+                  {helper}
+                </Text>
               ) : null}
-              {required ? (
-                <sup>
-                  <AsteriskIcon size={8} sentiment="danger" />
-                </sup>
+
+              {error && typeof error !== 'boolean' ? (
+                <ErrorText variant="caption" as="span" sentiment="danger">
+                  {error}
+                </ErrorText>
               ) : null}
             </Stack>
-
-            {helper ? (
-              <Text
-                variant="caption"
-                as="span"
-                prominence="weak"
-                sentiment="neutral"
-              >
-                {helper}
-              </Text>
-            ) : null}
-
-            {error && typeof error !== 'boolean' ? (
-              <ErrorText variant="caption" as="span" sentiment="danger">
-                {error}
-              </ErrorText>
-            ) : null}
-          </Stack>
+          ) : null}
         </CheckboxContainer>
       </Tooltip>
     )
