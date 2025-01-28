@@ -104,10 +104,7 @@ const PopupContent = () => {
           sentiment="neutral"
           size="xsmall"
           onClick={() => {
-            if (
-              !maxDate ||
-              maxDate >= new Date(yearToShow, monthToShow + 1, 1)
-            ) {
+            if (!maxDate || maxDate >= new Date(yearToShow, monthToShow, 1)) {
               if (!showMonthYearPicker) {
                 const [monthNext, year] = getNextMonth(monthToShow, yearToShow)
                 setMonthToShow(monthNext)
@@ -118,7 +115,7 @@ const PopupContent = () => {
             }
           }}
           disabled={
-            !!(maxDate && maxDate < new Date(yearToShow, monthToShow + 1, 1))
+            !!(maxDate && maxDate < new Date(yearToShow, monthToShow, 1))
           }
         />
       </Stack>
