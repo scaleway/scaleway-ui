@@ -20,6 +20,7 @@ import * as domainsAndDns from './domainsAndDns'
 import * as edgeServices from './edgeServices'
 import * as elasticMetal from './elasticMetal'
 import * as environmentalFootprintCalculator from './environmentalFootprintCalculator'
+import * as fileStorage from './fileStorage'
 import * as functions from './functions'
 import * as generativeApi from './generativeApi'
 import * as iam from './iam'
@@ -75,6 +76,7 @@ export {
   edgeServices,
   elasticMetal,
   environmentalFootprintCalculator,
+  fileStorage,
   functions,
   generativeApi,
   iam,
