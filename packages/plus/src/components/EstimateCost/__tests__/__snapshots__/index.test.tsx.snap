@@ -995,13 +995,15 @@ exports[`EstimateCost - index > render isBeta with discount 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -1053,13 +1055,15 @@ exports[`EstimateCost - index > render isBeta with discount 1`] = `
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -2297,13 +2301,15 @@ exports[`EstimateCost - index > render isBeta with discount equal to 100% 1`] = 
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -2355,13 +2361,15 @@ exports[`EstimateCost - index > render isBeta with discount equal to 100% 1`] = 
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -3599,13 +3607,15 @@ exports[`EstimateCost - index > render isBeta with discount more than 100% 1`] =
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -3657,13 +3667,15 @@ exports[`EstimateCost - index > render isBeta with discount more than 100% 1`] =
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -4901,13 +4913,15 @@ exports[`EstimateCost - index > render isBeta without discount 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -4959,13 +4973,15 @@ exports[`EstimateCost - index > render isBeta without discount 1`] = `
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -6119,13 +6135,15 @@ exports[`EstimateCost - index > render with all timeUnits values 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -6172,13 +6190,15 @@ exports[`EstimateCost - index > render with all timeUnits values 1`] = `
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -8117,13 +8137,15 @@ exports[`EstimateCost - index > render with commitmentFees 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -8170,13 +8192,15 @@ exports[`EstimateCost - index > render with commitmentFees 1`] = `
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -10131,13 +10155,15 @@ exports[`EstimateCost - index > render with commitmentFees and iscommitmentFeesC
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -10184,13 +10210,15 @@ exports[`EstimateCost - index > render with commitmentFees and iscommitmentFeesC
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -12214,13 +12242,15 @@ exports[`EstimateCost - index > render with description as node 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -12265,13 +12295,15 @@ exports[`EstimateCost - index > render with description as node 1`] = `
                 >
                   <svg
                     class="emotion-40 emotion-41 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -13419,13 +13451,15 @@ exports[`EstimateCost - index > render with discount 0 and defaultTimeUnit month
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -13472,13 +13506,15 @@ exports[`EstimateCost - index > render with discount 0 and defaultTimeUnit month
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -15486,13 +15522,15 @@ exports[`EstimateCost - index > render with discount 0.5 and defaultTimeUnit mon
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -15539,13 +15577,15 @@ exports[`EstimateCost - index > render with discount 0.5 and defaultTimeUnit mon
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -16693,13 +16733,15 @@ exports[`EstimateCost - index > render with discount 1 and defaultTimeUnit month
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -16746,13 +16788,15 @@ exports[`EstimateCost - index > render with discount 1 and defaultTimeUnit month
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -17984,13 +18028,15 @@ exports[`EstimateCost - index > render with discount 1, isBeta and defaultTimeUn
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -18042,13 +18088,15 @@ exports[`EstimateCost - index > render with discount 1, isBeta and defaultTimeUn
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -19202,13 +19250,15 @@ exports[`EstimateCost - index > render with discount 100% but no isBeta 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -19255,13 +19305,15 @@ exports[`EstimateCost - index > render with discount 100% but no isBeta 1`] = `
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -20383,13 +20435,15 @@ exports[`EstimateCost - index > render with hideTimeUnit 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -22194,13 +22248,15 @@ exports[`EstimateCost - index > render with hideTotal 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -22247,13 +22303,15 @@ exports[`EstimateCost - index > render with hideTotal 1`] = `
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -23452,13 +23510,15 @@ exports[`EstimateCost - index > render with isBeta but undefined discount 1`] = 
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -23510,13 +23570,15 @@ exports[`EstimateCost - index > render with isBeta but undefined discount 1`] = 
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -25698,13 +25760,15 @@ exports[`EstimateCost - index > render with isBeta, discount 0 and defaultTimeUn
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -25756,13 +25820,15 @@ exports[`EstimateCost - index > render with isBeta, discount 0 and defaultTimeUn
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -27934,13 +28000,15 @@ exports[`EstimateCost - index > render with isBeta, discount 0.5 and defaultTime
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -27992,13 +28060,15 @@ exports[`EstimateCost - index > render with isBeta, discount 0.5 and defaultTime
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -29231,13 +29301,15 @@ exports[`EstimateCost - index > render with isBeta, price, discount 50% 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -29289,13 +29361,15 @@ exports[`EstimateCost - index > render with isBeta, price, discount 50% 1`] = `
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -30449,13 +30523,15 @@ exports[`EstimateCost - index > render with item discount 50% 1`] = `
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -30502,13 +30578,15 @@ exports[`EstimateCost - index > render with item discount 50% 1`] = `
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -31656,13 +31734,15 @@ exports[`EstimateCost - index > render with item discount 50% and defaultTimeUni
             >
               <svg
                 class="emotion-25 emotion-26"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -31709,13 +31789,15 @@ exports[`EstimateCost - index > render with item discount 50% and defaultTimeUni
                 >
                   <svg
                     class="emotion-42 emotion-43 emotion-26"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
@@ -32907,13 +32989,15 @@ exports[`EstimateCost - index > render with item discount 50% and text 1`] = `
             >
               <svg
                 class="emotion-29 emotion-30"
+                fill="none"
+                height="16"
                 viewBox="0 0 20 20"
+                width="16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   clip-rule="evenodd"
                   d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                  fill-rule="evenodd"
                 />
               </svg>
               Estimated cost
@@ -32960,13 +33044,15 @@ exports[`EstimateCost - index > render with item discount 50% and text 1`] = `
                 >
                   <svg
                     class="emotion-46 emotion-47 emotion-30"
+                    fill="none"
+                    height="16"
                     viewBox="0 0 20 20"
+                    width="16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       clip-rule="evenodd"
                       d="M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75m.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10m5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0zM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7m-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
-                      fill-rule="evenodd"
                     />
                   </svg>
                   Estimated cost
