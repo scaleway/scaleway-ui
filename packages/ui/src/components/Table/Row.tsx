@@ -132,9 +132,10 @@ export const Row = ({
     registerSelectableRow,
     selectedRowIds,
     expandButton,
-    mapCheckbox,
     inRange,
     columns,
+    refList,
+    handleOnChange,
   } = useTableContext()
 
   const checkboxRowRef = useRef<HTMLInputElement>(null)
@@ -170,22 +171,19 @@ export const Row = ({
 
   const canClickRowToExpand = hasExpandable && !expandButton
 
-  useEffect(() => {
-    const { current } = checkboxRowRef
-
-    if (current) {
-      mapCheckbox.set(id, current)
-    }
-
-    return () => {
-      mapCheckbox.delete(id)
-    }
-  }, [mapCheckbox, id])
-
   const theme = useTheme()
 
   const childrenLength =
     Children.count(children) + (selectable ? 1 : 0) + (expandButton ? 1 : 0)
+
+  useEffect(() => {
+    const refAtEffectStart = refList.current
+    const { current } = checkboxRowRef
+
+    if (refAtEffectStart && current && !refAtEffectStart.includes(current)) {
+      refList.current.push(current)
+    }
+  }, [refList])
 
   return (
     <>
@@ -215,6 +213,7 @@ export const Row = ({
                   inRange={inRange?.has(id)}
                   disabled={selectDisabled !== undefined}
                   ref={checkboxRowRef}
+                  onChange={() => handleOnChange(id, selectedRowIds[id])}
                 />
               </Tooltip>
             </StyledCheckboxContainer>
