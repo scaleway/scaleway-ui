@@ -321,30 +321,29 @@ jobs:
           rm -rf /tmp/docs/.buildx-cache
           mv /tmp/docs/.buildx-cache-new /tmp/docs/.buildx-cache
 
-  # e2e:
-  #   timeout-minutes: 5
-  #   runs-on: ubuntu-latest
-  #   needs: [deploy]
-  #   env:
-  #     CI: true
-  #     TURBO_CACHE: "remote:rw"
-  #     BASE_URL: ${{ needs.deploy.outputs.base_url }}
-  #   steps:
-  #     - uses: actions/checkout@v4
-  #     - uses: pnpm/action-setup@v4.0.0
-  #     - uses: actions/setup-node@v4.1.0
-  #       with:
-  #         node-version: 22
-  #         cache: "pnpm"
-  #     - name: install pnpm deps
-  #       run: |
-  #         pnpm install --frozen-lockfile
-  #         pnpm exec playwright install --with-deps
-  #     - name: run e2e
-  #       run: pnpm run test:e2e
-  #     - uses: actions/upload-artifact@v4
-  #       if: ${{ !cancelled() }}
-  #       with:
-  #         name: playwright-report
-  #         path: playwright-report/
-  #         retention-days: 5
+  e2e:
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    needs: [typecheck, format]
+    env:
+      CI: true
+      TURBO_CACHE: "remote:rw"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4.0.0
+      - uses: actions/setup-node@v4.1.0
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - name: install pnpm deps
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm exec playwright install --with-deps
+      - name: run e2e
+        run: pnpm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 5

@@ -26,6 +26,7 @@
     "check:deps": "npx depcheck . --skip-missing=true --ignores='bin,eslint,vite,jest,husky,@commitlint/*,@babel/*,babel-*'",
     "commit": "npx git-cz -a --disable-emoji",
     "start": "STORYBOOK_ENVIRONMENT=development storybook dev -p 6006",
+    "start:e2e": "turbo start --filter @ultraviolet/e2e",
     "start:production": "STORYBOOK_ENVIRONMENT=production storybook dev -p 6006",
     "format": "biome check --linter-enabled=false --write .",
     "format:check": "biome check --linter-enabled=false --verbose .",

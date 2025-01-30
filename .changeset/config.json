@@ -12,7 +12,7 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@examples/*", "@utils/*"],
+  "ignore": ["@examples/*", "@utils/*", "@ultraviolet/e2e"],
   "privatePackages": {
     "tag": false,
     "version": true
