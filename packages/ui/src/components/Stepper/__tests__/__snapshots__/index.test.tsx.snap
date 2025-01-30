@@ -652,13 +652,15 @@ exports[`Stepper > handles clicks when interactive 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -1359,13 +1361,15 @@ exports[`Stepper > handles clicks when interactive and small 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -2066,13 +2070,15 @@ exports[`Stepper > handles clicks when not interactive 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -2464,13 +2470,15 @@ exports[`Stepper > renders correctly with all selected 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -2862,13 +2870,15 @@ exports[`Stepper > renders correctly with animation 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -3260,13 +3270,15 @@ exports[`Stepper > renders correctly with children 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -3659,13 +3671,15 @@ exports[`Stepper > renders correctly with default props 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -4353,13 +4367,15 @@ exports[`Stepper > renders correctly with selected prop 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -4385,13 +4401,15 @@ exports[`Stepper > renders correctly with selected prop 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -4761,13 +4779,15 @@ exports[`Stepper > renders correctly with small size 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -5226,13 +5246,15 @@ exports[`Stepper > renders correctly with step number in row 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -5833,13 +5855,15 @@ exports[`Stepper > renders correctly without Stepper.Step 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -6229,13 +6253,15 @@ exports[`Stepper > renders correctly without separator 1`] = `
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>
@@ -6637,13 +6663,15 @@ exports[`Stepper > renders correctly without separator with label on the right 1
         >
           <svg
             class="emotion-7 emotion-8"
+            fill="none"
+            height="16"
             viewBox="0 0 16 16"
+            width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               clip-rule="evenodd"
               d="M12.166 3.126a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208"
-              fill-rule="evenodd"
             />
           </svg>
         </div>

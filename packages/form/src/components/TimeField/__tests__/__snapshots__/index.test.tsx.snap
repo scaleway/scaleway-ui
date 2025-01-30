@@ -365,13 +365,15 @@ exports[`TimeField > should render correctly 1`] = `
                 />
                 <svg
                   class="emotion-19 emotion-20"
+                  fill="none"
+                  height="16"
                   viewBox="0 0 20 20"
+                  width="16"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
                     clip-rule="evenodd"
                     d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m7.75-4.25a.75.75 0 0 0-1.5 0V8c0 .414.336.75.75.75h3.25a.75.75 0 0 0 0-1.5h-2.5z"
-                    fill-rule="evenodd"
                   />
                 </svg>
               </div>
@@ -762,13 +764,15 @@ exports[`TimeField > should render correctly checked without value 1`] = `
                 />
                 <svg
                   class="emotion-19 emotion-20"
+                  fill="none"
+                  height="16"
                   viewBox="0 0 20 20"
+                  width="16"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
                     clip-rule="evenodd"
                     d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m7.75-4.25a.75.75 0 0 0-1.5 0V8c0 .414.336.75.75.75h3.25a.75.75 0 0 0 0-1.5h-2.5z"
-                    fill-rule="evenodd"
                   />
                 </svg>
               </div>
@@ -1156,13 +1160,15 @@ exports[`TimeField > should render correctly disabled 1`] = `
                 />
                 <svg
                   class="emotion-19 emotion-20"
+                  fill="none"
+                  height="16"
                   viewBox="0 0 20 20"
+                  width="16"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
                     clip-rule="evenodd"
                     d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m7.75-4.25a.75.75 0 0 0-1.5 0V8c0 .414.336.75.75.75h3.25a.75.75 0 0 0 0-1.5h-2.5z"
-                    fill-rule="evenodd"
                   />
                 </svg>
               </div>
@@ -1550,13 +1556,15 @@ exports[`TimeField > should trigger events 1`] = `
                 />
                 <svg
                   class="emotion-19 emotion-20"
+                  fill="none"
+                  height="16"
                   viewBox="0 0 20 20"
+                  width="16"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
                     clip-rule="evenodd"
                     d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m7.75-4.25a.75.75 0 0 0-1.5 0V8c0 .414.336.75.75.75h3.25a.75.75 0 0 0 0-1.5h-2.5z"
-                    fill-rule="evenodd"
                   />
                 </svg>
               </div>

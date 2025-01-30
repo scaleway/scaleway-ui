@@ -209,13 +209,15 @@ exports[`SubmitErrorAlert > should display an alert when submitError is present 
           >
             <svg
               class="emotion-8 emotion-9"
+              fill="none"
+              height="16"
               viewBox="0 0 20 20"
+              width="16"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 clip-rule="evenodd"
                 d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14M8 4a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3A.75.75 0 0 1 8 4m0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-                fill-rule="evenodd"
               />
             </svg>
             <div
