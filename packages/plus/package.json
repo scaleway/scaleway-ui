@@ -81,9 +81,9 @@
     "react-dom": "19.0.0"
   },
   "dependencies": {
-    "@uiw/codemirror-extensions-langs": "4.23.7",
-    "@uiw/codemirror-theme-material": "4.23.7",
-    "@uiw/react-codemirror": "4.23.7",
+    "@uiw/codemirror-extensions-langs": "4.23.8",
+    "@uiw/codemirror-theme-material": "4.23.8",
+    "@uiw/react-codemirror": "4.23.8",
     "@ultraviolet/icons": "workspace:*",
     "@ultraviolet/themes": "workspace:*",
     "@ultraviolet/ui": "workspace:*",
