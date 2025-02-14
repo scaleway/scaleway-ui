@@ -1,11 +1,8 @@
 import styled from '@emotion/styled'
-import {
-  AlertCircleIcon,
-  AsteriskIcon,
-  CheckCircleIcon,
-} from '@ultraviolet/icons'
+import { AlertCircleIcon, CheckCircleIcon } from '@ultraviolet/icons'
 import type { ComponentProps, InputHTMLAttributes, ReactNode } from 'react'
 import { useId, useMemo, useState } from 'react'
+import { Label } from '../Label'
 import { SelectInputV2 } from '../SelectInputV2'
 import type { OptionType } from '../SelectInputV2/types'
 import { Stack } from '../Stack'
@@ -67,7 +64,7 @@ const UnitInputWrapper = styled(Stack)<{
     ):not([data-error='true']):focus,
   :not([data-disabled='true']):not([data-readonly='true']):not(
       [data-success='true']
-    ):not([data-error='true'])active {
+    ):not([data-error='true']):active {
     box-shadow: ${({ theme }) => theme.shadows.focusPrimary};
     border-color: ${({ theme }) => theme.colors.primary.borderHover};
 
@@ -75,6 +72,15 @@ const UnitInputWrapper = styled(Stack)<{
       border-right-color: ${({ theme }) => theme.colors.primary.border};
     }
   }
+
+  &:not([data-disabled='true']):not([data-readonly='true']):not(
+      [data-success='true']
+    ):not([data-error='true']):focus-within  {
+      border-color: ${({ theme }) => theme.colors.primary.borderHover};
+      & > ${StyledNumberInputWrapper} {
+      border-right-color: ${({ theme }) => theme.colors.primary.border};
+    }
+    }
 
   &:not([data-disabled='true']):not([data-error='true']):not(
       [data-success='true']
@@ -259,28 +265,21 @@ export const UnitInput = ({
 
   return (
     <Stack gap={0.5}>
-      {label ? (
-        <Stack direction="row" gap={0.5} alignItems="center">
-          <Text
-            as="label"
-            variant={size === 'large' ? 'bodyStrong' : 'bodySmallStrong'}
-            disabled={disabled}
-            htmlFor={id ?? localId}
-            prominence="strong"
-            sentiment="neutral"
-          >
-            {label}
-          </Text>
-          {required ? <AsteriskIcon sentiment="danger" size={8} /> : null}
-          {labelInformation ?? null}
-        </Stack>
+      {label || labelInformation ? (
+        <Label
+          labelDescription={labelInformation}
+          required={required}
+          size={size}
+          htmlFor={id ?? localId}
+        >
+          {label}
+        </Label>
       ) : null}
       <UnitInputWrapper
         direction="row"
         data-testid={dataTestId}
         data-size={size}
         width={width}
-        id={id}
         data-success={!!success}
         data-error={!!error}
         data-disabled={!!disabled}
@@ -296,7 +295,7 @@ export const UnitInput = ({
             autoFocus={autoFocus}
             disabled={disabled}
             name={`${name}-value`}
-            id={id ? `${id}-value` : undefined}
+            id={id ?? localId}
             value={val}
             onChange={event => {
               const numericValue = Number.parseInt(event.target.value, 10)

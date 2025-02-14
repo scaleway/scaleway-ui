@@ -8,7 +8,7 @@ const DEFAULT_VALUE = new Date('01/01/2000 11:23:14')
 
 describe('TimeInput', () => {
   test('renders correctly with base props', () =>
-    shouldMatchEmotionSnapshot(<TimeInputV2 label="label" />))
+    shouldMatchEmotionSnapshot(<TimeInputV2 />))
 
   test('renders correctly disabled', () =>
     shouldMatchEmotionSnapshot(<TimeInputV2 label="test" disabled />))

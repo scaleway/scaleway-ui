@@ -603,7 +603,7 @@ exports[`TagInput > should renders correctly with error 1`] = `
             <input
               class="emotion-6 emotion-7"
               data-size="large"
-              id=":r6:"
+              id=":re:"
               type="text"
               value=""
             />
@@ -629,6 +629,380 @@ exports[`TagInput > should renders correctly with error 1`] = `
       >
         This is an error
       </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TagInput > should renders correctly with label 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.25rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-2 {
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  background-color: #ffffff;
+  padding: calc(0.75rem - 1px) 1rem;
+  cursor: text;
+  background: #ffffff;
+  border: 1px solid #d9dadd;
+  border-radius: 0.25rem;
+}
+
+.emotion-4:focus-within {
+  border-color: #792dd4;
+  box-shadow: 0px 0px 0px 3px #8c40ef40;
+}
+
+.emotion-4[data-success="true"] {
+  border-color: #22674e;
+}
+
+.emotion-4[data-error="true"] {
+  border-color: #b3144d;
+}
+
+.emotion-4:hover {
+  border-color: #792dd4;
+}
+
+.emotion-4[data-readonly="true"] {
+  border-color: #d9dadd;
+  background: #f9f9fa;
+}
+
+.emotion-4[data-disabled="true"] {
+  border-color: #e9eaeb;
+  background: #f3f3f4;
+  cursor: not-allowed;
+}
+
+.emotion-6 {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 0.875rem;
+  background: inherit;
+  color: #3f4250;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+
+.emotion-8::-webkit-input-placeholder {
+  color: #727683;
+}
+
+.emotion-8::-moz-placeholder {
+  color: #727683;
+}
+
+.emotion-8:-ms-input-placeholder {
+  color: #727683;
+}
+
+.emotion-8::placeholder {
+  color: #727683;
+}
+
+.emotion-8[data-size="large"] {
+  font-size: 1rem;
+}
+
+<div
+    data-testid="testing"
+  >
+    <div
+      class="emotion-0 emotion-1"
+    >
+      <label
+        class="emotion-2 emotion-3"
+        for=":r6:"
+      >
+        Label
+      </label>
+      <div>
+        <div
+          class="emotion-4 emotion-5"
+          data-disabled="false"
+          data-error="false"
+          data-readonly="false"
+          data-success="false"
+        >
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <input
+              class="emotion-8 emotion-9"
+              data-size="large"
+              id=":r6:"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TagInput > should renders correctly with labelDescription 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.25rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-4 {
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  background-color: #ffffff;
+  padding: calc(0.75rem - 1px) 1rem;
+  cursor: text;
+  background: #ffffff;
+  border: 1px solid #d9dadd;
+  border-radius: 0.25rem;
+}
+
+.emotion-6:focus-within {
+  border-color: #792dd4;
+  box-shadow: 0px 0px 0px 3px #8c40ef40;
+}
+
+.emotion-6[data-success="true"] {
+  border-color: #22674e;
+}
+
+.emotion-6[data-error="true"] {
+  border-color: #b3144d;
+}
+
+.emotion-6:hover {
+  border-color: #792dd4;
+}
+
+.emotion-6[data-readonly="true"] {
+  border-color: #d9dadd;
+  background: #f9f9fa;
+}
+
+.emotion-6[data-disabled="true"] {
+  border-color: #e9eaeb;
+  background: #f3f3f4;
+  cursor: not-allowed;
+}
+
+.emotion-8 {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 0.875rem;
+  background: inherit;
+  color: #3f4250;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+
+.emotion-10::-webkit-input-placeholder {
+  color: #727683;
+}
+
+.emotion-10::-moz-placeholder {
+  color: #727683;
+}
+
+.emotion-10:-ms-input-placeholder {
+  color: #727683;
+}
+
+.emotion-10::placeholder {
+  color: #727683;
+}
+
+.emotion-10[data-size="large"] {
+  font-size: 1rem;
+}
+
+<div
+    data-testid="testing"
+  >
+    <div
+      class="emotion-0 emotion-1"
+    >
+      <div
+        class="emotion-2 emotion-1"
+      >
+        <label
+          class="emotion-4 emotion-5"
+          for=":ra:"
+        />
+        <div>
+          label description
+        </div>
+      </div>
+      <div>
+        <div
+          class="emotion-6 emotion-7"
+          data-disabled="false"
+          data-error="false"
+          data-readonly="false"
+          data-success="false"
+        >
+          <div
+            class="emotion-8 emotion-9"
+          >
+            <input
+              class="emotion-10 emotion-11"
+              data-size="large"
+              id=":ra:"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
@@ -777,7 +1151,7 @@ exports[`TagInput > should renders correctly with placeholder 1`] = `
             <input
               class="emotion-6 emotion-7"
               data-size="large"
-              id=":rc:"
+              id=":rk:"
               placeholder="Enter a value here"
               type="text"
               value=""
@@ -1099,7 +1473,7 @@ exports[`TagInput > should renders correctly with some tags 1`] = `
             <input
               class="emotion-26 emotion-27"
               data-size="large"
-              id=":re:"
+              id=":rm:"
               name="radio"
               placeholder=""
               type="text"
@@ -1422,7 +1796,7 @@ exports[`TagInput > should renders correctly with some tags objects 1`] = `
             <input
               class="emotion-26 emotion-27"
               data-size="large"
-              id=":rk:"
+              id=":rs:"
               name="radio"
               placeholder=""
               type="text"
@@ -1617,7 +1991,7 @@ exports[`TagInput > should renders correctly with success 1`] = `
             <input
               class="emotion-6 emotion-7"
               data-size="large"
-              id=":r9:"
+              id=":rh:"
               type="text"
               value=""
             />

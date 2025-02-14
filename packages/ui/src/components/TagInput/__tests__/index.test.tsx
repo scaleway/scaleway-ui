@@ -14,6 +14,14 @@ describe('TagInput', () => {
   it('should renders correctly readOnly', () =>
     shouldMatchEmotionSnapshot(<TagInput readOnly />))
 
+  it('should renders correctly with label', () =>
+    shouldMatchEmotionSnapshot(<TagInput label="Label" />))
+
+  it('should renders correctly with labelDescription', () =>
+    shouldMatchEmotionSnapshot(
+      <TagInput labelDescription={<div>label description</div>} />,
+    ))
+
   it('should renders correctly with error', () =>
     shouldMatchEmotionSnapshot(<TagInput error="This is an error" />))
 

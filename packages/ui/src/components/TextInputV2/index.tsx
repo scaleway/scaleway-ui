@@ -1,9 +1,5 @@
 import styled from '@emotion/styled'
-import {
-  AlertCircleIcon,
-  AsteriskIcon,
-  CheckCircleIcon,
-} from '@ultraviolet/icons'
+import { AlertCircleIcon, CheckCircleIcon } from '@ultraviolet/icons'
 import type {
   ChangeEvent,
   ChangeEventHandler,
@@ -20,6 +16,7 @@ import {
   useState,
 } from 'react'
 import { Button } from '../Button'
+import { Label } from '../Label'
 import { Loader } from '../Loader'
 import { Stack } from '../Stack'
 import { Text } from '../Text'
@@ -276,24 +273,15 @@ export const TextInputV2 = forwardRef<HTMLInputElement, TextInputProps>(
         aria-atomic={ariaAtomic}
       >
         {label || labelDescription ? (
-          <Stack direction="row" gap="1" alignItems="center">
-            {label ? (
-              <Stack direction="row" gap="0.5" alignItems="start">
-                <Text
-                  as="label"
-                  id={ariaLabelledBy}
-                  variant={size === 'large' ? 'bodyStrong' : 'bodySmallStrong'}
-                  sentiment="neutral"
-                  htmlFor={id ?? localId}
-                  prominence="strong"
-                >
-                  {label}
-                </Text>
-                {required ? <AsteriskIcon sentiment="danger" size={8} /> : null}
-              </Stack>
-            ) : null}
-            {labelDescription ?? null}
-          </Stack>
+          <Label
+            labelDescription={labelDescription}
+            required={required}
+            size={size}
+            htmlFor={id ?? localId}
+            id={ariaLabelledBy}
+          >
+            {label}
+          </Label>
         ) : null}
         <div>
           <Tooltip text={tooltip}>

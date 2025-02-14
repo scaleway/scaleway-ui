@@ -2,6 +2,7 @@ import { keyframes } from '@emotion/react'
 import styled from '@emotion/styled'
 import type { ReactNode } from 'react'
 import type { Color } from '../../theme'
+import { Label } from '../Label'
 import { Stack } from '../Stack'
 import { Text } from '../Text'
 
@@ -119,21 +120,9 @@ export const ProgressBar = ({
         justifyContent={!label && showProgress ? 'right' : 'space-between'}
         width="100%"
       >
-        <Stack gap={1} direction="row" alignItems="center">
-          {label ? (
-            <Text as="label" variant="bodySmallStrong" sentiment="neutral">
-              {label}
-            </Text>
-          ) : null}
-          {typeof labelDescription === 'string' ? (
-            <Text as="label" variant="bodySmall">
-              {labelDescription}
-            </Text>
-          ) : null}
-          {labelDescription && typeof labelDescription !== 'string'
-            ? labelDescription
-            : null}
-        </Stack>
+        <Label labelDescription={labelDescription} size="medium">
+          {label}
+        </Label>
         {showProgress ? (
           <Text
             as="label"
@@ -150,27 +139,10 @@ export const ProgressBar = ({
         ) : null}
       </Stack>
     ) : null}
-    {label && direction === 'row' && labelDescription ? (
-      <StyledStack direction="row" gap={1}>
-        <StyledText as="label" variant="bodySmallStrong" sentiment="neutral">
-          {label}
-        </StyledText>
-        {typeof labelDescription === 'string' ? (
-          <Text as="label" variant="bodySmall">
-            {labelDescription}
-          </Text>
-        ) : (
-          labelDescription
-        )}
-      </StyledStack>
-    ) : null}
-    {label && direction === 'row' && !labelDescription ? (
-      <StyledStack direction="row" gap={1}>
-        <StyledText as="label" variant="bodySmallStrong" sentiment="neutral">
-          {label}
-        </StyledText>
-      </StyledStack>
-    ) : null}
+    <Label labelDescription={labelDescription} size="medium">
+      {label}
+    </Label>
+
     <StyledProgressContainer
       role="progressbar"
       aria-valuenow={value}

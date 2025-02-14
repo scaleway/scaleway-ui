@@ -26,18 +26,169 @@ exports[`TextInputFieldV2 > should render correctly 1`] = `
 }
 
 .emotion-2 {
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.5rem;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  height: 3rem;
+  background: #ffffff;
+  border: 1px solid #d9dadd;
+  border-radius: 0.25rem;
+}
+
+.emotion-4>.emotion-7 {
+  color: #3f4250;
+}
+
+.emotion-4>.emotion-7::-webkit-input-placeholder {
+  color: #727683;
+}
+
+.emotion-4>.emotion-7::-moz-placeholder {
+  color: #727683;
+}
+
+.emotion-4>.emotion-7:-ms-input-placeholder {
+  color: #727683;
+}
+
+.emotion-4>.emotion-7::placeholder {
+  color: #727683;
+}
+
+.emotion-4[data-success='true'] {
+  border-color: #22674e;
+}
+
+.emotion-4[data-error='true'] {
+  border-color: #b3144d;
+}
+
+.emotion-4[data-readonly='true'] {
+  background: #f9f9fa;
+  border-color: #d9dadd;
+}
+
+.emotion-4[data-disabled='true'] {
+  background: #f3f3f4;
+  border-color: #e9eaeb;
+}
+
+.emotion-4[data-disabled='true']>.emotion-7 {
+  color: #b5b7bd;
+}
+
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
+  border-color: #8c40ef;
+}
+
+.emotion-6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding-left: 1rem;
+  background: transparent;
+  font-size: 0.875rem;
+}
+
+.emotion-6[data-size='large'] {
+  font-size: 1rem;
+}
+
+.emotion-6[data-size='small'] {
+  padding-left: 0.5rem;
+}
+
+<div
+    data-testid="testing"
+  >
+    <form
+      novalidate=""
+    >
+      <div
+        class="emotion-0 emotion-1"
+      >
+        <label
+          class="emotion-2 emotion-3"
+          for=":r0:"
+        >
+          Test
+        </label>
+        <div>
+          <div
+            class="emotion-4 emotion-5"
+            data-disabled="false"
+            data-error="false"
+            data-readonly="false"
+            data-success="false"
+          >
+            <input
+              aria-invalid="false"
+              class="emotion-6 emotion-7"
+              data-size="large"
+              id=":r0:"
+              name="test"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextInputFieldV2 > should render correctly generated 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.25rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
   -webkit-box-pack: normal;
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
@@ -48,7 +199,7 @@ exports[`TextInputFieldV2 > should render correctly 1`] = `
   flex-wrap: nowrap;
 }
 
-.emotion-4 {
+.emotion-2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -71,8 +222,20 @@ exports[`TextInputFieldV2 > should render correctly 1`] = `
   flex-wrap: nowrap;
 }
 
-.emotion-6 {
+.emotion-4 {
   color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 {
+  color: #b3144d;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
   font-weight: 500;
@@ -180,249 +343,7 @@ exports[`TextInputFieldV2 > should render correctly 1`] = `
   padding-left: 0.5rem;
 }
 
-<div
-    data-testid="testing"
-  >
-    <form
-      novalidate=""
-    >
-      <div
-        class="emotion-0 emotion-1"
-      >
-        <div
-          class="emotion-2 emotion-1"
-        >
-          <div
-            class="emotion-4 emotion-1"
-          >
-            <label
-              class="emotion-6 emotion-7"
-              for=":r0:"
-            >
-              Test
-            </label>
-          </div>
-        </div>
-        <div>
-          <div
-            class="emotion-8 emotion-9"
-            data-disabled="false"
-            data-error="false"
-            data-readonly="false"
-            data-success="false"
-          >
-            <input
-              aria-invalid="false"
-              class="emotion-10 emotion-11"
-              data-size="large"
-              id=":r0:"
-              name="test"
-              type="text"
-              value=""
-            />
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextInputFieldV2 > should render correctly generated 1`] = `
-<DocumentFragment>
-  .emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: normal;
-  -webkit-box-align: normal;
-  -ms-flex-align: normal;
-  align-items: normal;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  vertical-align: middle;
-  fill: #b3144d;
-  height: 8px;
-  width: 8px;
-  min-width: 8px;
-  min-height: 8px;
-}
-
-.emotion-8 .fillStroke {
-  stroke: #b3144d;
-  fill: none;
-}
-
-.emotion-10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  height: 3rem;
-  background: #ffffff;
-  border: 1px solid #d9dadd;
-  border-radius: 0.25rem;
-}
-
-.emotion-10>.emotion-13 {
-  color: #3f4250;
-}
-
-.emotion-10>.emotion-13::-webkit-input-placeholder {
-  color: #727683;
-}
-
-.emotion-10>.emotion-13::-moz-placeholder {
-  color: #727683;
-}
-
-.emotion-10>.emotion-13:-ms-input-placeholder {
-  color: #727683;
-}
-
-.emotion-10>.emotion-13::placeholder {
-  color: #727683;
-}
-
-.emotion-10[data-success='true'] {
-  border-color: #22674e;
-}
-
-.emotion-10[data-error='true'] {
-  border-color: #b3144d;
-}
-
-.emotion-10[data-readonly='true'] {
-  background: #f9f9fa;
-  border-color: #d9dadd;
-}
-
-.emotion-10[data-disabled='true'] {
-  background: #f3f3f4;
-  border-color: #e9eaeb;
-}
-
-.emotion-10[data-disabled='true']>.emotion-13 {
-  color: #b5b7bd;
-}
-
-.emotion-10[data-disabled='true']>.emotion-13::-webkit-input-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-10[data-disabled='true']>.emotion-13::-moz-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-10[data-disabled='true']>.emotion-13:-ms-input-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-10[data-disabled='true']>.emotion-13::placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-10:not([data-disabled='true']):not([data-readonly]):hover {
-  border-color: #8c40ef;
-}
-
 .emotion-12 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  border: none;
-  outline: none;
-  height: 100%;
-  width: 100%;
-  padding-left: 1rem;
-  background: transparent;
-  font-size: 0.875rem;
-}
-
-.emotion-12[data-size='large'] {
-  font-size: 1rem;
-}
-
-.emotion-12[data-size='small'] {
-  padding-left: 0.5rem;
-}
-
-.emotion-14 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -446,7 +367,7 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
   padding: 0 1rem;
 }
 
-.emotion-16 {
+.emotion-14 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -485,22 +406,22 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
   color: #3f4250;
 }
 
-.emotion-16:hover {
+.emotion-14:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-16:active {
+.emotion-14:active {
   box-shadow: 0px 0px 0px 3px #151a2d5c;
 }
 
-.emotion-16:hover,
-.emotion-16:active {
+.emotion-14:hover,
+.emotion-14:active {
   background: #e9eaeb;
   color: #222638;
 }
 
-.emotion-18 {
+.emotion-16 {
   vertical-align: middle;
   fill: currentColor;
   height: 16px;
@@ -509,12 +430,12 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
   min-height: 16px;
 }
 
-.emotion-18 .fillStroke {
+.emotion-16 .fillStroke {
   stroke: currentColor;
   fill: none;
 }
 
-.emotion-20 {
+.emotion-18 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -553,17 +474,17 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
   color: #ffffff;
 }
 
-.emotion-20:hover {
+.emotion-18:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-20:active {
+.emotion-18:active {
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-20:hover,
-.emotion-20:active {
+.emotion-18:hover,
+.emotion-18:active {
   background: #792dd4;
   color: #f9f9fa;
 }
@@ -580,28 +501,22 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
         <div
           class="emotion-2 emotion-1"
         >
-          <div
-            class="emotion-4 emotion-1"
+          <label
+            class="emotion-4 emotion-5"
+            for=":r3:"
           >
-            <label
-              class="emotion-6 emotion-7"
-              for=":r3:"
-            >
-              Test
-            </label>
-            <svg
-              class="emotion-8 emotion-9"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M10 2h4l-.79 7.91 6.45-4.64 2 3.46L14.42 12l7.24 3.27-2 3.46-6.45-4.64L14 22h-4l.79-7.91-6.45 4.64-2-3.46L9.58 12 2.34 8.73l2-3.46 6.45 4.64z"
-              />
-            </svg>
-          </div>
+            Test
+          </label>
+          <label
+            class="emotion-6 emotion-5"
+            for=":r3:"
+          >
+            *
+          </label>
         </div>
         <div>
           <div
-            class="emotion-10 emotion-11"
+            class="emotion-8 emotion-9"
             data-disabled="false"
             data-error="false"
             data-readonly="false"
@@ -609,7 +524,7 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
           >
             <input
               aria-invalid="false"
-              class="emotion-12 emotion-13"
+              class="emotion-10 emotion-11"
               data-size="large"
               id=":r3:"
               name="test"
@@ -618,15 +533,15 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
               value="This is an example"
             />
             <div
-              class="emotion-14 emotion-15"
+              class="emotion-12 emotion-13"
             >
               <button
                 aria-label="clear value"
-                class="emotion-16 emotion-17"
+                class="emotion-14 emotion-15"
                 type="button"
               >
                 <svg
-                  class="emotion-18 emotion-19"
+                  class="emotion-16 emotion-17"
                   viewBox="0 0 16 16"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -640,7 +555,7 @@ exports[`TextInputFieldV2 > should render correctly generated 1`] = `
         </div>
       </div>
       <button
-        class="emotion-20 emotion-21"
+        class="emotion-18 emotion-19"
         type="submit"
       >
         Submit

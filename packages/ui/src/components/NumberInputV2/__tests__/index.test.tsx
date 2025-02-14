@@ -16,6 +16,14 @@ describe('NumberInputV2', () => {
   it('should renders correctly without controls', () =>
     shouldMatchEmotionSnapshot(<NumberInputV2 controls={false} />))
 
+  it('should renders correctly with label', () =>
+    shouldMatchEmotionSnapshot(<NumberInputV2 label="Label" />))
+
+  it('should renders correctly with label description', () =>
+    shouldMatchEmotionSnapshot(
+      <NumberInputV2 labelDescription={<div>label description</div>} />,
+    ))
+
   it('should renders correctly with error', () =>
     shouldMatchEmotionSnapshot(<NumberInputV2 error="This is an error" />))
 

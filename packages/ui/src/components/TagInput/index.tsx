@@ -1,9 +1,5 @@
 import styled from '@emotion/styled'
-import {
-  AlertCircleIcon,
-  AsteriskIcon,
-  CheckCircleOutlineIcon,
-} from '@ultraviolet/icons'
+import { AlertCircleIcon, CheckCircleOutlineIcon } from '@ultraviolet/icons'
 import type {
   ChangeEvent,
   ClipboardEventHandler,
@@ -13,6 +9,7 @@ import type {
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { getUUID } from '../../utils'
 import { Button } from '../Button'
+import { Label } from '../Label'
 import { Stack } from '../Stack'
 import { Tag } from '../Tag'
 import { Text } from '../Text'
@@ -316,23 +313,14 @@ export const TagInput = ({
   return (
     <Stack gap="0.5" className={className}>
       {label || labelDescription ? (
-        <Stack direction="row" gap="1" alignItems="center">
-          {label ? (
-            <Stack direction="row" gap="0.5" alignItems="start">
-              <Text
-                as="label"
-                variant={size === 'large' ? 'bodyStrong' : 'bodySmallStrong'}
-                sentiment="neutral"
-                htmlFor={id ?? localId}
-                prominence="strong"
-              >
-                {label}
-              </Text>
-              {required ? <AsteriskIcon sentiment="danger" size={8} /> : null}
-            </Stack>
-          ) : null}
-          {labelDescription ?? null}
-        </Stack>
+        <Label
+          required={required}
+          size={size}
+          labelDescription={labelDescription}
+          htmlFor={id ?? localId}
+        >
+          {label}
+        </Label>
       ) : null}
       <div>
         <Tooltip text={tooltip}>

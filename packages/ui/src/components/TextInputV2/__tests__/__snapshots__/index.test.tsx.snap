@@ -49,98 +49,18 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -152,19 +72,7 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   text-decoration: none;
 }
 
-.emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -178,69 +86,69 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -254,69 +162,69 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -329,15 +237,15 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -350,15 +258,15 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -382,7 +290,7 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   padding: 0 1rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -406,7 +314,7 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   padding: 0 1rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   vertical-align: middle;
   fill: #b3144d;
   height: 1rem;
@@ -415,12 +323,12 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
   min-height: 1rem;
 }
 
-.emotion-14 .fillStroke {
+.emotion-10 .fillStroke {
   stroke: #b3144d;
   fill: none;
 }
 
-.emotion-16 {
+.emotion-12 {
   color: #b3144d;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -438,23 +346,15 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":rk:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rk:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div>
         <div
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-disabled="false"
           data-error="true"
           data-readonly="false"
@@ -462,17 +362,17 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
         >
           <input
             aria-invalid="true"
-            class="emotion-10 emotion-11"
+            class="emotion-6 emotion-7"
             data-size="large"
             id=":rk:"
             type="text"
             value="test"
           />
           <div
-            class="emotion-12 emotion-13"
+            class="emotion-8 emotion-9"
           >
             <svg
-              class="emotion-14 emotion-15"
+              class="emotion-10 emotion-11"
               viewBox="0 0 20 20"
             >
               <path
@@ -485,7 +385,7 @@ exports[`TextInputV2 > should render correctly when input  has a error sentiment
         </div>
       </div>
       <p
-        class="emotion-16 emotion-7"
+        class="emotion-12 emotion-3"
       >
         success
       </p>
@@ -543,98 +443,18 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -646,19 +466,7 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   text-decoration: none;
 }
 
-.emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -672,69 +480,69 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -748,69 +556,69 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -823,15 +631,15 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -844,15 +652,15 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -876,7 +684,7 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   padding: 0 1rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -900,7 +708,7 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   padding: 0 1rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   vertical-align: middle;
   fill: #22674e;
   height: 1rem;
@@ -909,12 +717,12 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
   min-height: 1rem;
 }
 
-.emotion-14 .fillStroke {
+.emotion-10 .fillStroke {
   stroke: #22674e;
   fill: none;
 }
 
-.emotion-16 {
+.emotion-12 {
   color: #22674e;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -932,23 +740,15 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":rg:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rg:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div>
         <div
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-disabled="false"
           data-error="false"
           data-readonly="false"
@@ -956,17 +756,17 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
         >
           <input
             aria-invalid="false"
-            class="emotion-10 emotion-11"
+            class="emotion-6 emotion-7"
             data-size="large"
             id=":rg:"
             type="text"
             value="test"
           />
           <div
-            class="emotion-12 emotion-13"
+            class="emotion-8 emotion-9"
           >
             <svg
-              class="emotion-14 emotion-15"
+              class="emotion-10 emotion-11"
               viewBox="0 0 20 20"
             >
               <path
@@ -979,7 +779,7 @@ exports[`TextInputV2 > should render correctly when input has a success sentimen
         </div>
       </div>
       <p
-        class="emotion-16 emotion-7"
+        class="emotion-12 emotion-3"
       >
         success
       </p>
@@ -1037,98 +837,18 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -1140,19 +860,7 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
   text-decoration: none;
 }
 
-.emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1166,69 +874,69 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1242,69 +950,69 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -1317,15 +1025,15 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -1338,11 +1046,11 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
@@ -1352,23 +1060,15 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":ra:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":ra:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div>
         <div
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-disabled="true"
           data-error="false"
           data-readonly="false"
@@ -1376,7 +1076,7 @@ exports[`TextInputV2 > should render correctly when input is disabled 1`] = `
         >
           <input
             aria-invalid="false"
-            class="emotion-10 emotion-11"
+            class="emotion-6 emotion-7"
             data-size="large"
             disabled=""
             id=":ra:"
@@ -1439,98 +1139,18 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -1542,19 +1162,7 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
   text-decoration: none;
 }
 
-.emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1568,69 +1176,69 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1644,69 +1252,69 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -1719,15 +1327,15 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -1740,11 +1348,11 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
@@ -1754,23 +1362,15 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":rd:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rd:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div>
         <div
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-disabled="false"
           data-error="false"
           data-readonly="true"
@@ -1778,7 +1378,7 @@ exports[`TextInputV2 > should render correctly when input is readOnly 1`] = `
         >
           <input
             aria-invalid="false"
-            class="emotion-10 emotion-11"
+            class="emotion-6 emotion-7"
             data-size="large"
             id=":rd:"
             readonly=""
@@ -1818,52 +1418,6 @@ exports[`TextInputV2 > should render correctly with basic props 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -1875,7 +1429,7 @@ exports[`TextInputV2 > should render correctly with basic props 1`] = `
   text-decoration: none;
 }
 
-.emotion-8 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1889,69 +1443,69 @@ exports[`TextInputV2 > should render correctly with basic props 1`] = `
   border-radius: 0.25rem;
 }
 
-.emotion-8>.emotion-11 {
+.emotion-4>.emotion-7 {
   color: #3f4250;
 }
 
-.emotion-8>.emotion-11::-webkit-input-placeholder {
+.emotion-4>.emotion-7::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::-moz-placeholder {
+.emotion-4>.emotion-7::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11:-ms-input-placeholder {
+.emotion-4>.emotion-7:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8>.emotion-11::placeholder {
+.emotion-4>.emotion-7::placeholder {
   color: #727683;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8[data-error='true'] {
+.emotion-4[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-8[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-webkit-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::-moz-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11:-ms-input-placeholder {
+.emotion-4[data-disabled='true']>.emotion-7:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8[data-disabled='true']>.emotion-11::placeholder {
+.emotion-4[data-disabled='true']>.emotion-7::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-8:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-4:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10 {
+.emotion-6 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -1964,11 +1518,11 @@ exports[`TextInputV2 > should render correctly with basic props 1`] = `
   font-size: 0.875rem;
 }
 
-.emotion-10[data-size='large'] {
+.emotion-6[data-size='large'] {
   font-size: 1rem;
 }
 
-.emotion-10[data-size='small'] {
+.emotion-6[data-size='small'] {
   padding-left: 0.5rem;
 }
 
@@ -1978,23 +1532,15 @@ exports[`TextInputV2 > should render correctly with basic props 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":r0:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":r0:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div>
         <div
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-disabled="false"
           data-error="false"
           data-readonly="false"
@@ -2002,7 +1548,7 @@ exports[`TextInputV2 > should render correctly with basic props 1`] = `
         >
           <input
             aria-invalid="false"
-            class="emotion-10 emotion-11"
+            class="emotion-6 emotion-7"
             data-size="large"
             id=":r0:"
             type="text"

@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-import { AsteriskIcon } from '@ultraviolet/icons'
 import type { ForwardedRef, InputHTMLAttributes, ReactNode } from 'react'
 import {
   forwardRef,
@@ -10,6 +9,7 @@ import {
   useRef,
 } from 'react'
 import { Button } from '../Button'
+import { Label } from '../Label'
 import { Row } from '../Row'
 import { Stack } from '../Stack'
 import { Text } from '../Text'
@@ -348,23 +348,14 @@ export const NumberInputV2 = forwardRef(
     return (
       <Stack gap="0.5" className={className}>
         {label || labelDescription ? (
-          <Stack direction="row" gap="1" alignItems="center">
-            {label ? (
-              <Stack direction="row" gap="0.5" alignItems="start">
-                <Text
-                  as="label"
-                  variant={size === 'large' ? 'bodyStrong' : 'bodySmallStrong'}
-                  sentiment="neutral"
-                  htmlFor={id ?? localId}
-                  prominence="strong"
-                >
-                  {label}
-                </Text>
-                {required ? <AsteriskIcon sentiment="danger" size={8} /> : null}
-              </Stack>
-            ) : null}
-            {labelDescription ?? null}
-          </Stack>
+          <Label
+            labelDescription={labelDescription}
+            htmlFor={id ?? localId}
+            required={required}
+            size={size}
+          >
+            {label}
+          </Label>
         ) : null}
         <div>
           <Tooltip text={tooltip}>

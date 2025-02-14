@@ -34,10 +34,10 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
   -webkit-box-pack: normal;
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
@@ -61,17 +61,15 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
 }
 
 .emotion-6 {
-  vertical-align: middle;
-  fill: #b3144d;
-  height: 8px;
-  width: 8px;
-  min-width: 8px;
-  min-height: 8px;
-}
-
-.emotion-6 .fillStroke {
-  stroke: #b3144d;
-  fill: none;
+  color: #b3144d;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-8 {
@@ -104,7 +102,7 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
     ):not([data-error='true']):focus,
 .emotion-8:not([data-disabled='true']):not([data-readonly='true']):not(
       [data-success='true']
-    ):not([data-error='true'])active {
+    ):not([data-error='true']):active {
   box-shadow: 0px 0px 0px 3px #8c40ef40;
   border-color: #792dd4;
 }
@@ -114,7 +112,19 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
     ):not([data-error='true']):focus>.emotion-11,
 .emotion-8:not([data-disabled='true']):not([data-readonly='true']):not(
       [data-success='true']
-    ):not([data-error='true'])active>.emotion-11 {
+    ):not([data-error='true']):active>.emotion-11 {
+  border-right-color: #8c40ef;
+}
+
+.emotion-8:not([data-disabled='true']):not([data-readonly='true']):not(
+      [data-success='true']
+    ):not([data-error='true']):focus-within {
+  border-color: #792dd4;
+}
+
+.emotion-8:not([data-disabled='true']):not([data-readonly='true']):not(
+      [data-success='true']
+    ):not([data-error='true']):focus-within>.emotion-11 {
   border-right-color: #8c40ef;
 }
 
@@ -542,14 +552,12 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
           >
             Test
           </label>
-          <svg
-            class="emotion-6 emotion-7"
-            viewBox="0 0 20 20"
+          <label
+            class="emotion-6 emotion-5"
+            for=":r6:"
           >
-            <path
-              d="M10 2h4l-.79 7.91 6.45-4.64 2 3.46L14.42 12l7.24 3.27-2 3.46-6.45-4.64L14 22h-4l.79-7.91-6.45 4.64-2-3.46L9.58 12 2.34 8.73l2-3.46 6.45 4.64z"
-            />
-          </svg>
+            *
+          </label>
         </div>
         <div
           class="emotion-8 emotion-9"
@@ -568,6 +576,7 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
               class="emotion-12 emotion-13"
               data-size="large"
               data-testid="unit-input"
+              id=":r6:"
               max="9007199254740991"
               min="0"
               name="test-value"
@@ -583,8 +592,8 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
             class="emotion-14 emotion-15 emotion-16"
           >
             <div
-              aria-controls=":r9:"
-              aria-describedby=":r9:"
+              aria-controls=":ra:"
+              aria-describedby=":ra:"
               class="emotion-17 emotion-18"
               data-container-full-width="true"
               tabindex="0"
@@ -616,7 +625,7 @@ exports[`UnitInputField > should handles onChange and selection 1`] = `
                   >
                     <svg
                       aria-label="show dropdown"
-                      class="emotion-28 emotion-7"
+                      class="emotion-28 emotion-29"
                       viewBox="0 0 20 20"
                     >
                       <path
@@ -669,29 +678,6 @@ exports[`UnitInputField > should render correctly 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -703,7 +689,7 @@ exports[`UnitInputField > should render correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-6 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -728,29 +714,41 @@ exports[`UnitInputField > should render correctly 1`] = `
   border-radius: 0.25rem;
 }
 
-.emotion-6:not([data-disabled='true']):not([data-readonly='true']):not(
+.emotion-4:not([data-disabled='true']):not([data-readonly='true']):not(
       [data-success='true']
     ):not([data-error='true']):focus,
-.emotion-6:not([data-disabled='true']):not([data-readonly='true']):not(
+.emotion-4:not([data-disabled='true']):not([data-readonly='true']):not(
       [data-success='true']
-    ):not([data-error='true'])active {
+    ):not([data-error='true']):active {
   box-shadow: 0px 0px 0px 3px #8c40ef40;
   border-color: #792dd4;
 }
 
-.emotion-6:not([data-disabled='true']):not([data-readonly='true']):not(
+.emotion-4:not([data-disabled='true']):not([data-readonly='true']):not(
       [data-success='true']
-    ):not([data-error='true']):focus>.emotion-9,
-.emotion-6:not([data-disabled='true']):not([data-readonly='true']):not(
+    ):not([data-error='true']):focus>.emotion-7,
+.emotion-4:not([data-disabled='true']):not([data-readonly='true']):not(
       [data-success='true']
-    ):not([data-error='true'])active>.emotion-9 {
+    ):not([data-error='true']):active>.emotion-7 {
   border-right-color: #8c40ef;
 }
 
-.emotion-6:not([data-disabled='true']):not([data-error='true']):not(
+.emotion-4:not([data-disabled='true']):not([data-readonly='true']):not(
+      [data-success='true']
+    ):not([data-error='true']):focus-within {
+  border-color: #792dd4;
+}
+
+.emotion-4:not([data-disabled='true']):not([data-readonly='true']):not(
+      [data-success='true']
+    ):not([data-error='true']):focus-within>.emotion-7 {
+  border-right-color: #8c40ef;
+}
+
+.emotion-4:not([data-disabled='true']):not([data-error='true']):not(
       [data-success='true']
     ):not([data-readonly='true']):hover,
-.emotion-6:not([data-disabled='true']):not([data-error='true']):not(
+.emotion-4:not([data-disabled='true']):not([data-error='true']):not(
       [data-success='true']
     ):focus {
   -webkit-text-decoration: none;
@@ -758,90 +756,90 @@ exports[`UnitInputField > should render correctly 1`] = `
   border-color: #8c40ef;
 }
 
-.emotion-6:not([data-disabled='true']):not([data-error='true']):not(
+.emotion-4:not([data-disabled='true']):not([data-error='true']):not(
       [data-success='true']
-    ):not([data-readonly='true']):hover>.emotion-9,
-.emotion-6:not([data-disabled='true']):not([data-error='true']):not(
+    ):not([data-readonly='true']):hover>.emotion-7,
+.emotion-4:not([data-disabled='true']):not([data-error='true']):not(
       [data-success='true']
-    ):focus>.emotion-9 {
+    ):focus>.emotion-7 {
   border-right-color: #8c40ef;
 }
 
-.emotion-6[data-readonly='true'] {
+.emotion-4[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
   cursor: default;
 }
 
-.emotion-6[data-readonly='true']:active {
+.emotion-4[data-readonly='true']:active {
   border-color: #d9dadd;
 }
 
-.emotion-6[data-size='small'] {
+.emotion-4[data-size='small'] {
   height: 2rem;
 }
 
-.emotion-6[data-size='medium'] {
+.emotion-4[data-size='medium'] {
   height: 2.5rem;
 }
 
-.emotion-6[data-size='large'] {
+.emotion-4[data-size='large'] {
   height: 3rem;
 }
 
-.emotion-6[data-success='true'] {
+.emotion-4[data-success='true'] {
   border: 1px solid #22674e;
 }
 
-.emotion-6[data-success='true']>.emotion-9 {
+.emotion-4[data-success='true']>.emotion-7 {
   border-right-color: #22674e;
 }
 
-.emotion-6[data-success='true']:active {
+.emotion-4[data-success='true']:active {
   border: 1px solid #22674e;
   box-shadow: 0px 0px 0px 3px #45d19f40;
 }
 
-.emotion-6[data-success='true']:active>.emotion-9 {
+.emotion-4[data-success='true']:active>.emotion-7 {
   border-right-color: #22674e;
 }
 
-.emotion-6[data-error='true'] {
+.emotion-4[data-error='true'] {
   border: 1px solid #b3144d;
 }
 
-.emotion-6[data-error='true']>.emotion-9 {
+.emotion-4[data-error='true']>.emotion-7 {
   border-right-color: #b3144d;
 }
 
-.emotion-6[data-error='true']>.emotion-9:hover {
+.emotion-4[data-error='true']>.emotion-7:hover {
   border-right-color: #b3144d;
 }
 
-.emotion-6[data-error='true']:active {
+.emotion-4[data-error='true']:active {
   border: 1px solid #b3144d;
   box-shadow: 0px 0px 0px 3px #f91b6c40;
 }
 
-.emotion-6[data-error='true']:active>.emotion-9 {
+.emotion-4[data-error='true']:active>.emotion-7 {
   border-right-color: #b3144d;
 }
 
-.emotion-6[data-error='true']:active>.emotion-9:hover {
+.emotion-4[data-error='true']:active>.emotion-7:hover {
   border-right-color: #b3144d;
 }
 
-.emotion-6[data-disabled='true'] {
+.emotion-4[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
   cursor: not-allowed;
 }
 
-.emotion-6[data-disabled='true']>.emotion-9 {
+.emotion-4[data-disabled='true']>.emotion-7 {
   border-right-color: #e9eaeb;
 }
 
-.emotion-8 {
+.emotion-6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -859,7 +857,7 @@ exports[`UnitInputField > should render correctly 1`] = `
   height: 100%;
 }
 
-.emotion-10 {
+.emotion-8 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -871,70 +869,70 @@ exports[`UnitInputField > should render correctly 1`] = `
   color: #3f4250;
 }
 
-.emotion-10[data-size="small"] {
+.emotion-8[data-size="small"] {
   padding-left: 0.5rem;
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-8::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-8::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-8:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-8::placeholder {
   color: #727683;
 }
 
-.emotion-10:disabled {
+.emotion-8:disabled {
   cursor: not-allowed;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-8:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-8:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-8:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-8:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-13 {
+.emotion-11 {
   width: 100%;
   width: 12.6rem;
 }
 
-.emotion-13 #unit {
+.emotion-11 #unit {
   border: none;
   background: transparent;
 }
 
-.emotion-13 #unit:focus,
-.emotion-13 #unit:active {
+.emotion-11 #unit:focus,
+.emotion-11 #unit:active {
   box-shadow: none;
 }
 
-.emotion-15 {
+.emotion-13 {
   display: inherit;
 }
 
-.emotion-15[data-container-full-width="true"] {
+.emotion-13[data-container-full-width="true"] {
   width: 100%;
 }
 
-.emotion-19 {
+.emotion-17 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -969,81 +967,81 @@ exports[`UnitInputField > should render correctly 1`] = `
   overflow: hidden;
 }
 
-.emotion-19[data-size='small'] {
+.emotion-17[data-size='small'] {
   height: 2rem;
   padding-left: 0.5rem;
 }
 
-.emotion-19[data-size='medium'] {
+.emotion-17[data-size='medium'] {
   height: 2.5rem;
 }
 
-.emotion-19[data-size='large'] {
+.emotion-17[data-size='large'] {
   height: 3rem;
 }
 
-.emotion-19[data-state='neutral'] {
+.emotion-17[data-state='neutral'] {
   border: 1px solid #d9dadd;
 }
 
-.emotion-19[data-state='neutral']:not([data-disabled="true"]):not([data-readonly="true"]):active {
+.emotion-17[data-state='neutral']:not([data-disabled="true"]):not([data-readonly="true"]):active {
   border-color: #792dd4;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-19[data-state='neutral']:not([data-disabled='true']):hover,
-.emotion-19[data-state='neutral']:not([data-disabled='true']):focus {
+.emotion-17[data-state='neutral']:not([data-disabled='true']):hover,
+.emotion-17[data-state='neutral']:not([data-disabled='true']):focus {
   border-color: #792dd4;
   outline: none;
 }
 
-.emotion-19[data-state='neutral'][data-dropdownvisible='true'] {
+.emotion-17[data-state='neutral'][data-dropdownvisible='true'] {
   border-color: #792dd4;
 }
 
-.emotion-19[data-state='success'] {
+.emotion-17[data-state='success'] {
   border: 1px solid #22674e;
 }
 
-.emotion-19[data-state='success']:not([data-disabled="true"]):not([data-readonly="true"]):active {
+.emotion-17[data-state='success']:not([data-disabled="true"]):not([data-readonly="true"]):active {
   border-color: #1b533f;
   box-shadow: 0px 0px 0px 3px #45d19f40;
 }
 
-.emotion-19[data-state='success'][data-dropdownvisible='true'] {
+.emotion-17[data-state='success'][data-dropdownvisible='true'] {
   border-color: #1b533f;
 }
 
-.emotion-19[data-state='danger'] {
+.emotion-17[data-state='danger'] {
   border: 1px solid #b3144d;
 }
 
-.emotion-19[data-state='danger']:not([data-disabled="true"]):not([data-readonly="true"]):active {
+.emotion-17[data-state='danger']:not([data-disabled="true"]):not([data-readonly="true"]):active {
   border-color: #92103f;
   box-shadow: 0px 0px 0px 3px #f91b6c40;
 }
 
-.emotion-19[data-state='danger'][data-dropdownvisible='true'] {
+.emotion-17[data-state='danger'][data-dropdownvisible='true'] {
   border-color: #92103f;
 }
 
-.emotion-19:not([data-disabled='true']):not([data-readonly]):hover {
+.emotion-17:not([data-disabled='true']):not([data-readonly]):hover {
   border-color: #8c40ef;
 }
 
-.emotion-19[data-readonly='true'] {
+.emotion-17[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
   cursor: default;
 }
 
-.emotion-19[data-disabled='true'] {
+.emotion-17[data-disabled='true'] {
   background: #f3f3f4;
   border-color: #e9eaeb;
   cursor: not-allowed;
 }
 
-.emotion-22 {
+.emotion-20 {
   color: #727683;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -1059,7 +1057,7 @@ exports[`UnitInputField > should render correctly 1`] = `
   user-select: none;
 }
 
-.emotion-24 {
+.emotion-22 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1087,7 +1085,7 @@ exports[`UnitInputField > should render correctly 1`] = `
   display: flex;
 }
 
-.emotion-26 {
+.emotion-24 {
   vertical-align: middle;
   fill: #3f4250;
   height: 1rem;
@@ -1096,7 +1094,7 @@ exports[`UnitInputField > should render correctly 1`] = `
   min-height: 1rem;
 }
 
-.emotion-26 .fillStroke {
+.emotion-24 .fillStroke {
   stroke: #3f4250;
   fill: none;
 }
@@ -1110,18 +1108,14 @@ exports[`UnitInputField > should render correctly 1`] = `
       <div
         class="emotion-0 emotion-1"
       >
-        <div
-          class="emotion-2 emotion-1"
+        <label
+          class="emotion-2 emotion-3"
+          for=":r0:"
         >
-          <label
-            class="emotion-4 emotion-5"
-            for=":r0:"
-          >
-            Test
-          </label>
-        </div>
+          Test
+        </label>
         <div
-          class="emotion-6 emotion-7"
+          class="emotion-4 emotion-5"
           data-disabled="false"
           data-error="false"
           data-readonly="false"
@@ -1129,14 +1123,15 @@ exports[`UnitInputField > should render correctly 1`] = `
           data-success="false"
         >
           <div
-            class="emotion-8 emotion-9"
+            class="emotion-6 emotion-7"
             id="input-field"
           >
             <input
               aria-invalid="false"
-              class="emotion-10 emotion-11"
+              class="emotion-8 emotion-9"
               data-size="large"
               data-testid="unit-input"
+              id=":r0:"
               max="9007199254740991"
               min="0"
               name="test-value"
@@ -1147,12 +1142,12 @@ exports[`UnitInputField > should render correctly 1`] = `
           </div>
           <div
             aria-label="test-unit"
-            class="emotion-12 emotion-13 emotion-14"
+            class="emotion-10 emotion-11 emotion-12"
           >
             <div
               aria-controls=":r3:"
               aria-describedby=":r3:"
-              class="emotion-15 emotion-16"
+              class="emotion-13 emotion-14"
               data-container-full-width="true"
               tabindex="0"
             >
@@ -1162,7 +1157,7 @@ exports[`UnitInputField > should render correctly 1`] = `
                 <div
                   aria-expanded="false"
                   aria-haspopup="listbox"
-                  class="emotion-19 emotion-20"
+                  class="emotion-17 emotion-18"
                   data-disabled="false"
                   data-dropdownvisible="false"
                   data-readonly="false"
@@ -1174,16 +1169,16 @@ exports[`UnitInputField > should render correctly 1`] = `
                   tabindex="0"
                 >
                   <p
-                    class="emotion-21 emotion-22 emotion-5"
+                    class="emotion-19 emotion-20 emotion-3"
                   >
                     Select item
                   </p>
                   <div
-                    class="emotion-24 emotion-25"
+                    class="emotion-22 emotion-23"
                   >
                     <svg
                       aria-label="show dropdown"
-                      class="emotion-26 emotion-27"
+                      class="emotion-24 emotion-25"
                       viewBox="0 0 20 20"
                     >
                       <path

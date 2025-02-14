@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-import { AsteriskIcon } from '@ultraviolet/icons'
 import type {
   ChangeEvent,
   ClipboardEventHandler,
@@ -8,7 +7,7 @@ import type {
   ReactNode,
 } from 'react'
 import { createRef, useId, useMemo, useState } from 'react'
-import { Stack } from '../Stack'
+import { Label } from '../Label'
 import { Text } from '../Text'
 
 type Size = 'small' | 'medium' | 'large' | 'xlarge'
@@ -329,26 +328,13 @@ export const VerificationCode = ({
   return (
     <FieldSet className={className} data-testid={dataTestId}>
       {label || labelDescription ? (
-        <Stack direction="row" gap="1" alignItems="center">
-          {label ? (
-            <Stack direction="row" gap="0.5" alignItems="start">
-              <Text
-                as="legend"
-                variant={
-                  ['xlarge', 'large'].includes(size)
-                    ? 'bodyStrong'
-                    : 'bodySmallStrong'
-                }
-                sentiment="neutral"
-                prominence="strong"
-              >
-                {label}
-              </Text>
-              {required ? <AsteriskIcon sentiment="danger" size={8} /> : null}
-            </Stack>
-          ) : null}
-          {labelDescription ?? null}
-        </Stack>
+        <Label
+          labelDescription={labelDescription}
+          required={required}
+          size={size === 'xlarge' ? 'large' : size}
+        >
+          {label}
+        </Label>
       ) : null}
       <div>
         {values.map((value: string, index: number) => (

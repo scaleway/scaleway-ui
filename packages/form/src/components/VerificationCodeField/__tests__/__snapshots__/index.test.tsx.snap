@@ -21,29 +21,6 @@ exports[`VerificationCodeField > should render correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   gap: 0.25rem;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
@@ -62,7 +39,7 @@ exports[`VerificationCodeField > should render correctly 1`] = `
   flex-wrap: nowrap;
 }
 
-.emotion-6 {
+.emotion-4 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -74,21 +51,19 @@ exports[`VerificationCodeField > should render correctly 1`] = `
   text-decoration: none;
 }
 
+.emotion-6 {
+  color: #b3144d;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
 .emotion-8 {
-  vertical-align: middle;
-  fill: #b3144d;
-  height: 8px;
-  width: 8px;
-  min-width: 8px;
-  min-height: 8px;
-}
-
-.emotion-8 .fillStroke {
-  stroke: #b3144d;
-  fill: none;
-}
-
-.emotion-10 {
   background: #ffffff;
   color: #3f4250;
   font-size: 1rem;
@@ -104,54 +79,54 @@ exports[`VerificationCodeField > should render correctly 1`] = `
   border: solid 1px #d9dadd;
 }
 
-.emotion-10[aria-invalid='true'] {
+.emotion-8[aria-invalid='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-8[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10:hover,
-.emotion-10:focus {
+.emotion-8:hover,
+.emotion-8:focus {
   border-color: #792dd4;
 }
 
-.emotion-10:hover[aria-invalid='true'],
-.emotion-10:focus[aria-invalid='true'] {
+.emotion-8:hover[aria-invalid='true'],
+.emotion-8:focus[aria-invalid='true'] {
   border-color: #92103f;
 }
 
-.emotion-10:hover[data-success='true'],
-.emotion-10:focus[data-success='true'] {
+.emotion-8:hover[data-success='true'],
+.emotion-8:focus[data-success='true'] {
   border-color: #1b533f;
 }
 
-.emotion-10:focus {
+.emotion-8:focus {
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-10:last-child {
+.emotion-8:last-child {
   margin-right: 0;
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-8::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-8::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-8:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-8::placeholder {
   color: #727683;
 }
 
-.emotion-10:disabled {
+.emotion-8:disabled {
   cursor: not-allowed;
   background: #f3f3f4;
   color: #b5b7bd;
@@ -170,29 +145,22 @@ exports[`VerificationCodeField > should render correctly 1`] = `
         <div
           class="emotion-2 emotion-3"
         >
-          <div
-            class="emotion-4 emotion-3"
+          <label
+            class="emotion-4 emotion-5"
           >
-            <legend
-              class="emotion-6 emotion-7"
-            >
-              Code
-            </legend>
-            <svg
-              class="emotion-8 emotion-9"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M10 2h4l-.79 7.91 6.45-4.64 2 3.46L14.42 12l7.24 3.27-2 3.46-6.45-4.64L14 22h-4l.79-7.91-6.45 4.64-2-3.46L9.58 12 2.34 8.73l2-3.46 6.45 4.64z"
-              />
-            </svg>
-          </div>
+            Code
+          </label>
+          <label
+            class="emotion-6 emotion-5"
+          >
+            *
+          </label>
         </div>
         <div>
           <input
             aria-invalid="false"
             aria-label="Verification code 0"
-            class="emotion-10 emotion-11"
+            class="emotion-8 emotion-9"
             data-success="false"
             data-testid="0"
             id="verification-code-input-0"
@@ -205,7 +173,7 @@ exports[`VerificationCodeField > should render correctly 1`] = `
           <input
             aria-invalid="false"
             aria-label="Verification code 1"
-            class="emotion-10 emotion-11"
+            class="emotion-8 emotion-9"
             data-success="false"
             data-testid="1"
             id="verification-code-input-1"
@@ -218,7 +186,7 @@ exports[`VerificationCodeField > should render correctly 1`] = `
           <input
             aria-invalid="false"
             aria-label="Verification code 2"
-            class="emotion-10 emotion-11"
+            class="emotion-8 emotion-9"
             data-success="false"
             data-testid="2"
             id="verification-code-input-2"
@@ -231,7 +199,7 @@ exports[`VerificationCodeField > should render correctly 1`] = `
           <input
             aria-invalid="false"
             aria-label="Verification code 3"
-            class="emotion-10 emotion-11"
+            class="emotion-8 emotion-9"
             data-success="false"
             data-testid="3"
             id="verification-code-input-3"

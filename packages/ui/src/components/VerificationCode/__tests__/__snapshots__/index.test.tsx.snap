@@ -507,52 +507,6 @@ exports[`VerificationCode > render correctly with label 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -564,7 +518,7 @@ exports[`VerificationCode > render correctly with label 1`] = `
   text-decoration: none;
 }
 
-.emotion-8 {
+.emotion-4 {
   background: #ffffff;
   color: #3f4250;
   font-size: 1rem;
@@ -580,54 +534,54 @@ exports[`VerificationCode > render correctly with label 1`] = `
   border: solid 1px #d9dadd;
 }
 
-.emotion-8[aria-invalid='true'] {
+.emotion-4[aria-invalid='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-4[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8:hover,
-.emotion-8:focus {
+.emotion-4:hover,
+.emotion-4:focus {
   border-color: #792dd4;
 }
 
-.emotion-8:hover[aria-invalid='true'],
-.emotion-8:focus[aria-invalid='true'] {
+.emotion-4:hover[aria-invalid='true'],
+.emotion-4:focus[aria-invalid='true'] {
   border-color: #92103f;
 }
 
-.emotion-8:hover[data-success='true'],
-.emotion-8:focus[data-success='true'] {
+.emotion-4:hover[data-success='true'],
+.emotion-4:focus[data-success='true'] {
   border-color: #1b533f;
 }
 
-.emotion-8:focus {
+.emotion-4:focus {
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-8:last-child {
+.emotion-4:last-child {
   margin-right: 0;
 }
 
-.emotion-8::-webkit-input-placeholder {
+.emotion-4::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8::-moz-placeholder {
+.emotion-4::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8:-ms-input-placeholder {
+.emotion-4:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8::placeholder {
+.emotion-4::placeholder {
   color: #727683;
 }
 
-.emotion-8:disabled {
+.emotion-4:disabled {
   cursor: not-allowed;
   background: #f3f3f4;
   color: #b5b7bd;
@@ -640,24 +594,16 @@ exports[`VerificationCode > render correctly with label 1`] = `
     <fieldset
       class="emotion-0 emotion-1"
     >
-      <div
+      <label
         class="emotion-2 emotion-3"
       >
-        <div
-          class="emotion-4 emotion-3"
-        >
-          <legend
-            class="emotion-6 emotion-7"
-          >
-            test
-          </legend>
-        </div>
-      </div>
+        test
+      </label>
       <div>
         <input
           aria-invalid="false"
           aria-label="Verification code 0"
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-success="false"
           data-testid="0"
           id=":re:-0"
@@ -669,7 +615,7 @@ exports[`VerificationCode > render correctly with label 1`] = `
         <input
           aria-invalid="false"
           aria-label="Verification code 1"
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-success="false"
           data-testid="1"
           id=":re:-1"
@@ -681,7 +627,7 @@ exports[`VerificationCode > render correctly with label 1`] = `
         <input
           aria-invalid="false"
           aria-label="Verification code 2"
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-success="false"
           data-testid="2"
           id=":re:-2"
@@ -693,7 +639,7 @@ exports[`VerificationCode > render correctly with label 1`] = `
         <input
           aria-invalid="false"
           aria-label="Verification code 3"
-          class="emotion-8 emotion-9"
+          class="emotion-4 emotion-5"
           data-success="false"
           data-testid="3"
           id=":re:-3"
@@ -748,29 +694,6 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
 }
 
 .emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -782,7 +705,7 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
   text-decoration: none;
 }
 
-.emotion-8 {
+.emotion-6 {
   background: #ffffff;
   color: #3f4250;
   font-size: 1rem;
@@ -798,54 +721,54 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
   border: solid 1px #d9dadd;
 }
 
-.emotion-8[aria-invalid='true'] {
+.emotion-6[aria-invalid='true'] {
   border-color: #b3144d;
 }
 
-.emotion-8[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-8:hover,
-.emotion-8:focus {
+.emotion-6:hover,
+.emotion-6:focus {
   border-color: #792dd4;
 }
 
-.emotion-8:hover[aria-invalid='true'],
-.emotion-8:focus[aria-invalid='true'] {
+.emotion-6:hover[aria-invalid='true'],
+.emotion-6:focus[aria-invalid='true'] {
   border-color: #92103f;
 }
 
-.emotion-8:hover[data-success='true'],
-.emotion-8:focus[data-success='true'] {
+.emotion-6:hover[data-success='true'],
+.emotion-6:focus[data-success='true'] {
   border-color: #1b533f;
 }
 
-.emotion-8:focus {
+.emotion-6:focus {
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-8:last-child {
+.emotion-6:last-child {
   margin-right: 0;
 }
 
-.emotion-8::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-8::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-8:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-8::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-8:disabled {
+.emotion-6:disabled {
   cursor: not-allowed;
   background: #f3f3f4;
   color: #b5b7bd;
@@ -861,15 +784,11 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
       <div
         class="emotion-2 emotion-3"
       >
-        <div
-          class="emotion-4 emotion-3"
+        <label
+          class="emotion-4 emotion-5"
         >
-          <legend
-            class="emotion-6 emotion-7"
-          >
-            test
-          </legend>
-        </div>
+          test
+        </label>
         <span>
           description
         </span>
@@ -878,7 +797,7 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
         <input
           aria-invalid="false"
           aria-label="Verification code 0"
-          class="emotion-8 emotion-9"
+          class="emotion-6 emotion-7"
           data-success="false"
           data-testid="0"
           id=":rn:-0"
@@ -890,7 +809,7 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
         <input
           aria-invalid="false"
           aria-label="Verification code 1"
-          class="emotion-8 emotion-9"
+          class="emotion-6 emotion-7"
           data-success="false"
           data-testid="1"
           id=":rn:-1"
@@ -902,7 +821,7 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
         <input
           aria-invalid="false"
           aria-label="Verification code 2"
-          class="emotion-8 emotion-9"
+          class="emotion-6 emotion-7"
           data-success="false"
           data-testid="2"
           id=":rn:-2"
@@ -914,7 +833,7 @@ exports[`VerificationCode > render correctly with labelDescription 1`] = `
         <input
           aria-invalid="false"
           aria-label="Verification code 3"
-          class="emotion-8 emotion-9"
+          class="emotion-6 emotion-7"
           data-success="false"
           data-testid="3"
           id=":rn:-3"

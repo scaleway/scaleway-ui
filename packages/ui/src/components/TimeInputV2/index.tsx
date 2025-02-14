@@ -1,9 +1,9 @@
 import styled from '@emotion/styled'
-import { AlertCircleIcon, AsteriskIcon } from '@ultraviolet/icons'
+import { AlertCircleIcon } from '@ultraviolet/icons'
 import type { FocusEvent, ReactNode } from 'react'
-import { useEffect, useMemo, useRef, useState } from 'react'
-import type { LabelProp } from '../../types'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { Button } from '../Button'
+import { Label } from '../Label'
 import { Stack } from '../Stack'
 import { Text } from '../Text'
 import {
@@ -154,9 +154,6 @@ export const Input = styled.input<{
 const CustomText = styled(Text)`
 padding-inline: ${({ theme }) => theme.space['0.25']};
 `
-const StyledText = styled(Text)`
-cursor: text;
-`
 
 type TimeInputProps = {
   placeholder?: Time
@@ -180,7 +177,16 @@ type TimeInputProps = {
    * Automatically focus on the element on render. Autofocus is applied to the hour input
    */
   autoFocus?: boolean
-} & LabelProp
+} & (
+  | {
+      label?: string
+      'aria-label'?: never
+    }
+  | {
+      label?: never
+      'aria-label': string
+    }
+)
 
 /**
  * A time input component that allows users to type a time in a 24 or 12-hour format.
@@ -208,6 +214,7 @@ export const TimeInputV2 = ({
   placeholder = DEFAULT_PLACEHOLDER,
   'aria-label': ariaLabel,
 }: TimeInputProps) => {
+  const localId = useId()
   const defaultPeriod = useMemo(() => {
     if (value) return value.getHours() >= 12 ? 'pm' : 'am'
 
@@ -345,22 +352,16 @@ export const TimeInputV2 = ({
 
   return (
     <Stack gap={0.5} className={className}>
-      <Stack direction="row" gap={1} alignItems="center">
-        <StyledText
-          as="label"
-          prominence="strong"
-          sentiment="neutral"
-          variant="body"
+      {label || labelDescription ? (
+        <Label
+          labelDescription={labelDescription}
+          required={required}
+          size={size}
+          htmlFor={id ?? localId}
         >
           {label}
-        </StyledText>
-        {required ? <AsteriskIcon size={8} sentiment="danger" /> : null}
-        {labelDescription ? (
-          <StyledText as="label" variant="bodySmall">
-            {labelDescription}
-          </StyledText>
-        ) : null}
-      </Stack>
+        </Label>
+      ) : null}
       <TimeInputWrapper
         data-readonly={readOnly}
         data-disabled={disabled}

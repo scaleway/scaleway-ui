@@ -654,7 +654,7 @@ exports[`NumberInputV2 > should click on min button 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":r1r:"
+              id=":r25:"
               max="100"
               min="0"
               placeholder=""
@@ -1344,7 +1344,7 @@ exports[`NumberInputV2 > should click on plus button with a step value 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":r1v:"
+              id=":r29:"
               max="100"
               min="0"
               placeholder=""
@@ -2033,7 +2033,7 @@ exports[`NumberInputV2 > should click on plus button with a step value and an in
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":r2b:"
+              id=":r2l:"
               max="100"
               min="0"
               placeholder=""
@@ -2722,7 +2722,7 @@ exports[`NumberInputV2 > should focus input and modify value 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":r23:"
+              id=":r2d:"
               max="100"
               min="10"
               placeholder=""
@@ -3412,7 +3412,7 @@ exports[`NumberInputV2 > should focus input and modify value when value > max 1`
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":r27:"
+              id=":r2h:"
               max="5"
               min="1"
               placeholder=""
@@ -4182,7 +4182,7 @@ exports[`NumberInputV2 > should renders correctly all sizes > with size large 1`
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":r10:"
+              id=":r1a:"
               max="100"
               min="0"
               placeholder=""
@@ -4589,7 +4589,7 @@ exports[`NumberInputV2 > should renders correctly all sizes > with size large an
               data-controls="true"
               data-has-unit="true"
               data-size="large"
-              id=":r14:"
+              id=":r1e:"
               max="100"
               min="0"
               placeholder=""
@@ -4978,7 +4978,7 @@ exports[`NumberInputV2 > should renders correctly all sizes > with size medium 1
               data-controls="true"
               data-has-unit="false"
               data-size="medium"
-              id=":r19:"
+              id=":r1j:"
               max="100"
               min="0"
               placeholder=""
@@ -5385,7 +5385,7 @@ exports[`NumberInputV2 > should renders correctly all sizes > with size medium a
               data-controls="true"
               data-has-unit="true"
               data-size="medium"
-              id=":r1d:"
+              id=":r1n:"
               max="100"
               min="0"
               placeholder=""
@@ -5774,7 +5774,7 @@ exports[`NumberInputV2 > should renders correctly all sizes > with size small 1`
               data-controls="true"
               data-has-unit="false"
               data-size="small"
-              id=":r1i:"
+              id=":r1s:"
               max="100"
               min="0"
               placeholder=""
@@ -6181,7 +6181,7 @@ exports[`NumberInputV2 > should renders correctly all sizes > with size small an
               data-controls="true"
               data-has-unit="true"
               data-size="small"
-              id=":r1m:"
+              id=":r20:"
               max="100"
               min="0"
               placeholder=""
@@ -6948,7 +6948,7 @@ exports[`NumberInputV2 > should renders correctly max value 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":rs:"
+              id=":r16:"
               max="100"
               min="0"
               placeholder=""
@@ -7332,7 +7332,7 @@ exports[`NumberInputV2 > should renders correctly min value 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":ro:"
+              id=":r12:"
               max="100"
               min="0"
               placeholder=""
@@ -7728,7 +7728,7 @@ exports[`NumberInputV2 > should renders correctly with error 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":ra:"
+              id=":rk:"
               max="9007199254740991"
               min="0"
               placeholder=""
@@ -7762,6 +7762,838 @@ exports[`NumberInputV2 > should renders correctly with error 1`] = `
       >
         This is an error
       </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NumberInputV2 > should renders correctly with label 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.25rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-2 {
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  border: 1px solid #d9dadd;
+  border-radius: 0.25rem;
+}
+
+.emotion-4:focus-within {
+  border-color: #792dd4;
+  box-shadow: 0px 0px 0px 3px #8c40ef40;
+}
+
+.emotion-4[data-success='true'] {
+  border-color: #22674e;
+}
+
+.emotion-4[data-error='true'] {
+  border-color: #b3144d;
+}
+
+.emotion-4:hover {
+  border-color: #792dd4;
+}
+
+.emotion-4[data-readonly='true'] {
+  border-color: #d9dadd;
+  background: #f9f9fa;
+  cursor: not-allowed;
+}
+
+.emotion-4[data-disabled='true'] {
+  border-color: #e9eaeb;
+  background: #f3f3f4;
+  cursor: not-allowed;
+}
+
+.emotion-4[data-controls='false']>.emotion-12 {
+  border-width: 0;
+}
+
+.emotion-4[data-size='small'] {
+  height: 2rem;
+}
+
+.emotion-4[data-size='medium'] {
+  height: 2.5rem;
+}
+
+.emotion-4[data-size='large'] {
+  height: 3rem;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 0.125rem 0.5rem;
+}
+
+.emotion-6[data-size='small'] {
+  height: 2rem;
+}
+
+.emotion-6[data-size='medium'] {
+  height: 2.5rem;
+}
+
+.emotion-6[data-size='large'] {
+  height: 3rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.emotion-8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 2rem;
+  padding: 0 0.5rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  width: 2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  outline-offset: 2px;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.25rem;
+  paragraph-spacing: 0;
+  text-case: none;
+  background: none;
+  border: none;
+  color: #3f4250;
+}
+
+.emotion-8:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-8:active {
+  box-shadow: 0px 0px 0px 3px #151a2d5c;
+}
+
+.emotion-8:hover,
+.emotion-8:active {
+  background: #e9eaeb;
+  color: #222638;
+}
+
+.emotion-10 {
+  vertical-align: middle;
+  fill: currentColor;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.emotion-10 .fillStroke {
+  stroke: currentColor;
+  fill: none;
+}
+
+.emotion-13 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: inherit;
+  background: inherit;
+  width: 100%;
+}
+
+.emotion-15 {
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+  color: #3f4250;
+  font-size: 0.875rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: Regular;
+  line-height: 1.25rem;
+  text-align: center;
+  padding: 0.5rem;
+  background: none;
+}
+
+.emotion-15[data-has-unit='true'] {
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.emotion-15::-webkit-outer-spin-button,
+.emotion-15::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.emotion-15 {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  -ms-appearance: textfield;
+  appearance: textfield;
+}
+
+.emotion-15[data-size='small'] {
+  height: 2rem;
+}
+
+.emotion-15[data-size='medium'] {
+  height: 2.5rem;
+}
+
+.emotion-15[data-size='large'] {
+  height: 3rem;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: Regular;
+  line-height: 1.5rem;
+}
+
+.emotion-15:-moz-read-only {
+  color: #3f4250;
+  background: #f9f9fa;
+  border-block: 1px solid #d9dadd;
+}
+
+.emotion-15:read-only {
+  color: #3f4250;
+  background: #f9f9fa;
+  border-block: 1px solid #d9dadd;
+}
+
+.emotion-15:-moz-read-only~.e1b9qdjy2 {
+  background: #f9f9fa;
+}
+
+.emotion-15:read-only~.e1b9qdjy2 {
+  background: #f9f9fa;
+}
+
+.emotion-15:disabled {
+  color: #b5b7bd;
+  background: #f3f3f4;
+  cursor: not-allowed;
+  border-block: 1px solid #e9eaeb;
+}
+
+.emotion-15:disabled~.e1b9qdjy2 {
+  background: #f3f3f4;
+  cursor: not-allowed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-15:placeholder-shown~.e1b9qdjy2 {
+  color: #727683;
+  font-size: 1rem;
+}
+
+.emotion-15[data-controls='false'] {
+  text-align: left;
+}
+
+<div
+    data-testid="testing"
+  >
+    <div
+      class="emotion-0 emotion-1"
+    >
+      <label
+        class="emotion-2 emotion-3"
+        for=":ra:"
+      >
+        Label
+      </label>
+      <div>
+        <div
+          class="emotion-4 emotion-5"
+          data-controls="true"
+          data-disabled="false"
+          data-error="false"
+          data-size="large"
+          data-success="false"
+          data-unit="false"
+        >
+          <div
+            class="emotion-6 emotion-7"
+            data-size="large"
+          >
+            <button
+              aria-label="minus"
+              class="emotion-8 emotion-9"
+              type="button"
+            >
+              <svg
+                class="emotion-10 emotion-11"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.75 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="emotion-12 emotion-13 emotion-14"
+          >
+            <input
+              class="emotion-15 emotion-16"
+              data-controls="true"
+              data-has-unit="false"
+              data-size="large"
+              id=":ra:"
+              max="9007199254740991"
+              min="0"
+              placeholder=""
+              type="number"
+            />
+          </div>
+          <div
+            class="emotion-6 emotion-7"
+            data-size="large"
+          >
+            <button
+              aria-label="plus"
+              class="emotion-8 emotion-9"
+              type="button"
+            >
+              <svg
+                class="emotion-10 emotion-11"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NumberInputV2 > should renders correctly with label description 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.25rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-4 {
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  border: 1px solid #d9dadd;
+  border-radius: 0.25rem;
+}
+
+.emotion-6:focus-within {
+  border-color: #792dd4;
+  box-shadow: 0px 0px 0px 3px #8c40ef40;
+}
+
+.emotion-6[data-success='true'] {
+  border-color: #22674e;
+}
+
+.emotion-6[data-error='true'] {
+  border-color: #b3144d;
+}
+
+.emotion-6:hover {
+  border-color: #792dd4;
+}
+
+.emotion-6[data-readonly='true'] {
+  border-color: #d9dadd;
+  background: #f9f9fa;
+  cursor: not-allowed;
+}
+
+.emotion-6[data-disabled='true'] {
+  border-color: #e9eaeb;
+  background: #f3f3f4;
+  cursor: not-allowed;
+}
+
+.emotion-6[data-controls='false']>.emotion-14 {
+  border-width: 0;
+}
+
+.emotion-6[data-size='small'] {
+  height: 2rem;
+}
+
+.emotion-6[data-size='medium'] {
+  height: 2.5rem;
+}
+
+.emotion-6[data-size='large'] {
+  height: 3rem;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 0.125rem 0.5rem;
+}
+
+.emotion-8[data-size='small'] {
+  height: 2rem;
+}
+
+.emotion-8[data-size='medium'] {
+  height: 2.5rem;
+}
+
+.emotion-8[data-size='large'] {
+  height: 3rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.emotion-10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 2rem;
+  padding: 0 0.5rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  width: 2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  outline-offset: 2px;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.25rem;
+  paragraph-spacing: 0;
+  text-case: none;
+  background: none;
+  border: none;
+  color: #3f4250;
+}
+
+.emotion-10:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10:active {
+  box-shadow: 0px 0px 0px 3px #151a2d5c;
+}
+
+.emotion-10:hover,
+.emotion-10:active {
+  background: #e9eaeb;
+  color: #222638;
+}
+
+.emotion-12 {
+  vertical-align: middle;
+  fill: currentColor;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.emotion-12 .fillStroke {
+  stroke: currentColor;
+  fill: none;
+}
+
+.emotion-15 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: inherit;
+  background: inherit;
+  width: 100%;
+}
+
+.emotion-17 {
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+  color: #3f4250;
+  font-size: 0.875rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: Regular;
+  line-height: 1.25rem;
+  text-align: center;
+  padding: 0.5rem;
+  background: none;
+}
+
+.emotion-17[data-has-unit='true'] {
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.emotion-17::-webkit-outer-spin-button,
+.emotion-17::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.emotion-17 {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  -ms-appearance: textfield;
+  appearance: textfield;
+}
+
+.emotion-17[data-size='small'] {
+  height: 2rem;
+}
+
+.emotion-17[data-size='medium'] {
+  height: 2.5rem;
+}
+
+.emotion-17[data-size='large'] {
+  height: 3rem;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: Regular;
+  line-height: 1.5rem;
+}
+
+.emotion-17:-moz-read-only {
+  color: #3f4250;
+  background: #f9f9fa;
+  border-block: 1px solid #d9dadd;
+}
+
+.emotion-17:read-only {
+  color: #3f4250;
+  background: #f9f9fa;
+  border-block: 1px solid #d9dadd;
+}
+
+.emotion-17:-moz-read-only~.e1b9qdjy2 {
+  background: #f9f9fa;
+}
+
+.emotion-17:read-only~.e1b9qdjy2 {
+  background: #f9f9fa;
+}
+
+.emotion-17:disabled {
+  color: #b5b7bd;
+  background: #f3f3f4;
+  cursor: not-allowed;
+  border-block: 1px solid #e9eaeb;
+}
+
+.emotion-17:disabled~.e1b9qdjy2 {
+  background: #f3f3f4;
+  cursor: not-allowed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-17:placeholder-shown~.e1b9qdjy2 {
+  color: #727683;
+  font-size: 1rem;
+}
+
+.emotion-17[data-controls='false'] {
+  text-align: left;
+}
+
+<div
+    data-testid="testing"
+  >
+    <div
+      class="emotion-0 emotion-1"
+    >
+      <div
+        class="emotion-2 emotion-1"
+      >
+        <label
+          class="emotion-4 emotion-5"
+          for=":rf:"
+        />
+        <div>
+          label description
+        </div>
+      </div>
+      <div>
+        <div
+          class="emotion-6 emotion-7"
+          data-controls="true"
+          data-disabled="false"
+          data-error="false"
+          data-size="large"
+          data-success="false"
+          data-unit="false"
+        >
+          <div
+            class="emotion-8 emotion-9"
+            data-size="large"
+          >
+            <button
+              aria-label="minus"
+              class="emotion-10 emotion-11"
+              type="button"
+            >
+              <svg
+                class="emotion-12 emotion-13"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.75 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="emotion-14 emotion-15 emotion-16"
+          >
+            <input
+              class="emotion-17 emotion-18"
+              data-controls="true"
+              data-has-unit="false"
+              data-size="large"
+              id=":rf:"
+              max="9007199254740991"
+              min="0"
+              placeholder=""
+              type="number"
+            />
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-size="large"
+          >
+            <button
+              aria-label="plus"
+              class="emotion-10 emotion-11"
+              type="button"
+            >
+              <svg
+                class="emotion-12 emotion-13"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
@@ -8117,7 +8949,7 @@ exports[`NumberInputV2 > should renders correctly with placeholder 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":rk:"
+              id=":ru:"
               max="9007199254740991"
               min="0"
               placeholder="Enter a value here"
@@ -8513,7 +9345,7 @@ exports[`NumberInputV2 > should renders correctly with success 1`] = `
               data-controls="true"
               data-has-unit="false"
               data-size="large"
-              id=":rf:"
+              id=":rp:"
               max="9007199254740991"
               min="0"
               placeholder=""

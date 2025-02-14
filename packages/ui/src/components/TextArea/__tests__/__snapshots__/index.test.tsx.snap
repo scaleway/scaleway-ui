@@ -49,98 +49,18 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -152,35 +72,23 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -191,68 +99,68 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
   padding-right: calc(1.5rem + 0px + 16px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -278,7 +186,7 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -304,7 +212,7 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
   right: 0.5rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   vertical-align: middle;
   fill: #b3144d;
   height: 1em;
@@ -313,12 +221,12 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
   min-height: 1em;
 }
 
-.emotion-14 .fillStroke {
+.emotion-10 .fillStroke {
   stroke: #b3144d;
   fill: none;
 }
 
-.emotion-16 {
+.emotion-12 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) min-content;
   gap: 0.5rem;
@@ -332,7 +240,7 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
   justify-content: normal;
 }
 
-.emotion-18 {
+.emotion-14 {
   color: #b3144d;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -350,39 +258,31 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":rs:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rr:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="true"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="true"
           data-readonly="false"
           data-success="false"
-          id=":rr:"
+          id=":rs:"
           rows="3"
         >
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         >
           <svg
-            class="emotion-14 emotion-15"
+            class="emotion-10 emotion-11"
             viewBox="0 0 20 20"
           >
             <path
@@ -394,11 +294,11 @@ exports[`TextArea > should render correctly when input  has a error sentiment 1`
         </div>
       </div>
       <div
-        class="emotion-16 emotion-17"
+        class="emotion-12 emotion-13"
       >
         <div>
           <p
-            class="emotion-18 emotion-7"
+            class="emotion-14 emotion-3"
           >
             success
           </p>
@@ -458,98 +358,18 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -561,35 +381,23 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -600,68 +408,68 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
   padding-right: calc(1.5rem + 0px + 16px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -687,7 +495,7 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -713,7 +521,7 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
   right: 0.5rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   vertical-align: middle;
   fill: #22674e;
   height: 16px;
@@ -722,12 +530,12 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
   min-height: 16px;
 }
 
-.emotion-14 .fillStroke {
+.emotion-10 .fillStroke {
   stroke: #22674e;
   fill: none;
 }
 
-.emotion-16 {
+.emotion-12 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) min-content;
   gap: 0.5rem;
@@ -741,7 +549,7 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
   justify-content: normal;
 }
 
-.emotion-18 {
+.emotion-14 {
   color: #22674e;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -759,39 +567,31 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":ro:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rn:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="false"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="false"
           data-readonly="false"
           data-success="true"
-          id=":rn:"
+          id=":ro:"
           rows="3"
         >
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         >
           <svg
-            class="emotion-14 emotion-15"
+            class="emotion-10 emotion-11"
             viewBox="0 0 20 20"
           >
             <path
@@ -803,11 +603,11 @@ exports[`TextArea > should render correctly when input has a success sentiment 1
         </div>
       </div>
       <div
-        class="emotion-16 emotion-17"
+        class="emotion-12 emotion-13"
       >
         <div>
           <p
-            class="emotion-18 emotion-7"
+            class="emotion-14 emotion-3"
           >
             success
           </p>
@@ -867,98 +667,18 @@ exports[`TextArea > should render correctly when input is disabled 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -970,35 +690,23 @@ exports[`TextArea > should render correctly when input is disabled 1`] = `
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -1009,68 +717,68 @@ exports[`TextArea > should render correctly when input is disabled 1`] = `
   padding-right: calc(1.5rem + 0px + 0px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-10 {
+.emotion-6 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -1081,68 +789,68 @@ exports[`TextArea > should render correctly when input is disabled 1`] = `
   padding-right: calc(1.5rem + 0px + 0px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1168,7 +876,7 @@ exports[`TextArea > should render correctly when input is disabled 1`] = `
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1200,26 +908,18 @@ exports[`TextArea > should render correctly when input is disabled 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":ra:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":ra:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="false"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="false"
           data-readonly="false"
           data-success="false"
@@ -1230,7 +930,7 @@ exports[`TextArea > should render correctly when input is disabled 1`] = `
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         />
       </div>
     </div>
@@ -1287,98 +987,18 @@ exports[`TextArea > should render correctly when input is readOnly 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -1390,35 +1010,23 @@ exports[`TextArea > should render correctly when input is readOnly 1`] = `
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -1429,68 +1037,68 @@ exports[`TextArea > should render correctly when input is readOnly 1`] = `
   padding-right: calc(1.5rem + 0px + 0px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-10 {
+.emotion-6 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -1501,68 +1109,68 @@ exports[`TextArea > should render correctly when input is readOnly 1`] = `
   padding-right: calc(1.5rem + 0px + 0px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1588,7 +1196,7 @@ exports[`TextArea > should render correctly when input is readOnly 1`] = `
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1620,26 +1228,18 @@ exports[`TextArea > should render correctly when input is readOnly 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":rd:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rd:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="false"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="false"
           data-readonly="true"
           data-success="false"
@@ -1649,7 +1249,7 @@ exports[`TextArea > should render correctly when input is readOnly 1`] = `
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         />
       </div>
     </div>
@@ -1710,52 +1310,6 @@ exports[`TextArea > should render correctly when it is required 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   gap: 0.25rem;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
@@ -1775,29 +1329,18 @@ exports[`TextArea > should render correctly when it is required 1`] = `
 }
 
 .emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.emotion-6 {
+.emotion-4 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -1810,367 +1353,7 @@ exports[`TextArea > should render correctly when it is required 1`] = `
 }
 
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  vertical-align: middle;
-  fill: #b3144d;
-  height: 8px;
-  width: 8px;
-  min-width: 8px;
-  min-height: 8px;
-}
-
-.emotion-8 .fillStroke {
-  stroke: #b3144d;
-  fill: none;
-}
-
-.emotion-10 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-12 {
-  width: 100%;
-  resize: vertical;
-  background: #ffffff;
-  border: 1px solid #d9dadd;
-  color: #3f4250;
-  border-radius: 0.25rem;
-  padding: 0.75rem 0.5rem 0.75rem 1rem;
-  padding-right: calc(1.5rem + 0px + 0px);
-}
-
-.emotion-12::-webkit-input-placeholder {
-  color: #727683;
-}
-
-.emotion-12::-moz-placeholder {
-  color: #727683;
-}
-
-.emotion-12:-ms-input-placeholder {
-  color: #727683;
-}
-
-.emotion-12::placeholder {
-  color: #727683;
-}
-
-.emotion-12[data-success='true'] {
-  border-color: #22674e;
-}
-
-.emotion-12[data-error='true'] {
-  border-color: #b3144d;
-}
-
-.emotion-12[data-readonly='true'] {
-  background: #f9f9fa;
-  border-color: #d9dadd;
-}
-
-.emotion-12:disabled {
-  background: #f3f3f4;
-  border-color: #e9eaeb;
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled::-webkit-input-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled::-moz-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled:-ms-input-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled::placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:not(:disabled):hover {
-  border-color: #8c40ef;
-}
-
-.emotion-12:not(:disabled):focus {
-  outline: none;
-  border-color: #8c40ef;
-  box-shadow: 0px 0px 0px 3px #8c40ef40;
-}
-
-.emotion-12 {
-  width: 100%;
-  resize: vertical;
-  background: #ffffff;
-  border: 1px solid #d9dadd;
-  color: #3f4250;
-  border-radius: 0.25rem;
-  padding: 0.75rem 0.5rem 0.75rem 1rem;
-  padding-right: calc(1.5rem + 0px + 0px);
-}
-
-.emotion-12::-webkit-input-placeholder {
-  color: #727683;
-}
-
-.emotion-12::-moz-placeholder {
-  color: #727683;
-}
-
-.emotion-12:-ms-input-placeholder {
-  color: #727683;
-}
-
-.emotion-12::placeholder {
-  color: #727683;
-}
-
-.emotion-12[data-success='true'] {
-  border-color: #22674e;
-}
-
-.emotion-12[data-error='true'] {
-  border-color: #b3144d;
-}
-
-.emotion-12[data-readonly='true'] {
-  background: #f9f9fa;
-  border-color: #d9dadd;
-}
-
-.emotion-12:disabled {
-  background: #f3f3f4;
-  border-color: #e9eaeb;
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled::-webkit-input-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled::-moz-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled:-ms-input-placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:disabled::placeholder {
-  color: #b5b7bd;
-}
-
-.emotion-12:not(:disabled):hover {
-  border-color: #8c40ef;
-}
-
-.emotion-12:not(:disabled):focus {
-  outline: none;
-  border-color: #8c40ef;
-  box-shadow: 0px 0px 0px 3px #8c40ef40;
-}
-
-.emotion-14 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  position: absolute;
-  top: 0.75rem;
-  right: 0.5rem;
-}
-
-.emotion-14 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  position: absolute;
-  top: 0.75rem;
-  right: 0.5rem;
-}
-
-<div
-    data-testid="testing"
-  >
-    <div
-      class="emotion-0 emotion-1"
-    >
-      <div
-        class="emotion-2 emotion-1"
-      >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rg:"
-          >
-            Test
-          </label>
-          <svg
-            class="emotion-8 emotion-9"
-            viewBox="0 0 20 20"
-          >
-            <path
-              d="M10 2h4l-.79 7.91 6.45-4.64 2 3.46L14.42 12l7.24 3.27-2 3.46-6.45-4.64L14 22h-4l.79-7.91-6.45 4.64-2-3.46L9.58 12 2.34 8.73l2-3.46 6.45 4.64z"
-            />
-          </svg>
-        </div>
-      </div>
-      <div
-        class="emotion-10 emotion-11"
-      >
-        <textarea
-          aria-invalid="false"
-          class="emotion-12 emotion-13"
-          data-error="false"
-          data-readonly="false"
-          data-success="false"
-          id=":rg:"
-          rows="3"
-        >
-          test
-        </textarea>
-        <div
-          class="emotion-14 emotion-15"
-        />
-      </div>
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextArea > should render correctly with basic props 1`] = `
-<DocumentFragment>
-  .emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: normal;
-  -webkit-box-align: normal;
-  -ms-flex-align: normal;
-  align-items: normal;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
-  color: #222638;
+  color: #b3144d;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
   font-weight: 500;
@@ -2187,6 +1370,86 @@ exports[`TextArea > should render correctly with basic props 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+.emotion-8 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-10 {
+  width: 100%;
+  resize: vertical;
+  background: #ffffff;
+  border: 1px solid #d9dadd;
+  color: #3f4250;
+  border-radius: 0.25rem;
+  padding: 0.75rem 0.5rem 0.75rem 1rem;
+  padding-right: calc(1.5rem + 0px + 0px);
+}
+
+.emotion-10::-webkit-input-placeholder {
+  color: #727683;
+}
+
+.emotion-10::-moz-placeholder {
+  color: #727683;
+}
+
+.emotion-10:-ms-input-placeholder {
+  color: #727683;
+}
+
+.emotion-10::placeholder {
+  color: #727683;
+}
+
+.emotion-10[data-success='true'] {
+  border-color: #22674e;
+}
+
+.emotion-10[data-error='true'] {
+  border-color: #b3144d;
+}
+
+.emotion-10[data-readonly='true'] {
+  background: #f9f9fa;
+  border-color: #d9dadd;
+}
+
+.emotion-10:disabled {
+  background: #f3f3f4;
+  border-color: #e9eaeb;
+  color: #b5b7bd;
+}
+
+.emotion-10:disabled::-webkit-input-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-10:disabled::-moz-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-10:disabled:-ms-input-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-10:disabled::placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-10:not(:disabled):hover {
+  border-color: #8c40ef;
+}
+
+.emotion-10:not(:disabled):focus {
+  outline: none;
+  border-color: #8c40ef;
+  box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
 .emotion-10 {
@@ -2287,6 +1550,32 @@ exports[`TextArea > should render correctly with basic props 1`] = `
   right: 0.5rem;
 }
 
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+}
+
 <div
     data-testid="testing"
   >
@@ -2296,16 +1585,18 @@ exports[`TextArea > should render correctly with basic props 1`] = `
       <div
         class="emotion-2 emotion-1"
       >
-        <div
-          class="emotion-4 emotion-1"
+        <label
+          class="emotion-4 emotion-5"
+          for=":rg:"
         >
-          <label
-            class="emotion-6 emotion-7"
-            for=":r0:"
-          >
-            Test
-          </label>
-        </div>
+          Test
+        </label>
+        <label
+          class="emotion-6 emotion-5"
+          for=":rg:"
+        >
+          *
+        </label>
       </div>
       <div
         class="emotion-8 emotion-9"
@@ -2316,13 +1607,191 @@ exports[`TextArea > should render correctly with basic props 1`] = `
           data-error="false"
           data-readonly="false"
           data-success="false"
-          id=":r0:"
+          id=":rg:"
           rows="3"
         >
           test
         </textarea>
         <div
           class="emotion-12 emotion-13"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextArea > should render correctly with basic props 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.25rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-2 {
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-6 {
+  width: 100%;
+  resize: vertical;
+  background: #ffffff;
+  border: 1px solid #d9dadd;
+  color: #3f4250;
+  border-radius: 0.25rem;
+  padding: 0.75rem 0.5rem 0.75rem 1rem;
+  padding-right: calc(1.5rem + 0px + 0px);
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: #727683;
+}
+
+.emotion-6::-moz-placeholder {
+  color: #727683;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: #727683;
+}
+
+.emotion-6::placeholder {
+  color: #727683;
+}
+
+.emotion-6[data-success='true'] {
+  border-color: #22674e;
+}
+
+.emotion-6[data-error='true'] {
+  border-color: #b3144d;
+}
+
+.emotion-6[data-readonly='true'] {
+  background: #f9f9fa;
+  border-color: #d9dadd;
+}
+
+.emotion-6:disabled {
+  background: #f3f3f4;
+  border-color: #e9eaeb;
+  color: #b5b7bd;
+}
+
+.emotion-6:disabled::-webkit-input-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-6:disabled::-moz-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-6:disabled:-ms-input-placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-6:disabled::placeholder {
+  color: #b5b7bd;
+}
+
+.emotion-6:not(:disabled):hover {
+  border-color: #8c40ef;
+}
+
+.emotion-6:not(:disabled):focus {
+  outline: none;
+  border-color: #8c40ef;
+  box-shadow: 0px 0px 0px 3px #8c40ef40;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+}
+
+<div
+    data-testid="testing"
+  >
+    <div
+      class="emotion-0 emotion-1"
+    >
+      <label
+        class="emotion-2 emotion-3"
+        for=":r0:"
+      >
+        Test
+      </label>
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <textarea
+          aria-invalid="false"
+          class="emotion-6 emotion-7"
+          data-error="false"
+          data-readonly="false"
+          data-success="false"
+          id=":r0:"
+          rows="3"
+        >
+          test
+        </textarea>
+        <div
+          class="emotion-8 emotion-9"
         />
       </div>
     </div>
@@ -2379,98 +1848,18 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -2482,35 +1871,23 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -2521,68 +1898,68 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
   padding-right: calc(1.5rem + 0px + 0px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-10 {
+.emotion-6 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -2593,68 +1970,68 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
   padding-right: calc(1.5rem + 0px + 0px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2680,7 +2057,7 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2706,7 +2083,7 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
   right: 0.5rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) min-content;
   gap: 0.5rem;
@@ -2720,7 +2097,7 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
   justify-content: normal;
 }
 
-.emotion-16 {
+.emotion-12 {
   color: #727683;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -2738,45 +2115,37 @@ exports[`TextArea > should render correctly with maxlength 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":rk:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rj:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="false"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="false"
           data-readonly="false"
           data-success="false"
-          id=":rj:"
+          id=":rk:"
           maxlength="3"
           rows="3"
         >
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         />
       </div>
       <div
-        class="emotion-14 emotion-15"
+        class="emotion-10 emotion-11"
       >
         <div />
         <div
-          class="emotion-16 emotion-7"
+          class="emotion-12 emotion-3"
         >
           4/3
         </div>
@@ -2835,98 +2204,18 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -2938,35 +2227,23 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -2977,68 +2254,68 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
   padding-right: calc(1.5rem + 0px + 16px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3064,7 +2341,7 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3090,7 +2367,7 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
   right: 0.5rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   vertical-align: middle;
   fill: #b3144d;
   height: 1em;
@@ -3099,12 +2376,12 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
   min-height: 1em;
 }
 
-.emotion-14 .fillStroke {
+.emotion-10 .fillStroke {
   stroke: #b3144d;
   fill: none;
 }
 
-.emotion-16 {
+.emotion-12 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) min-content;
   gap: 0.5rem;
@@ -3118,7 +2395,7 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
   justify-content: normal;
 }
 
-.emotion-18 {
+.emotion-14 {
   color: #b3144d;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -3136,40 +2413,32 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":r14:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":r13:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="true"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="true"
           data-readonly="false"
           data-success="false"
-          id=":r13:"
+          id=":r14:"
           rows="3"
           style="height: 2px; max-height: calc(NaNpx + 2*0.75rem); min-height: calc(NaNpx + 2*0.75rem);"
         >
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         >
           <svg
-            class="emotion-14 emotion-15"
+            class="emotion-10 emotion-11"
             viewBox="0 0 20 20"
           >
             <path
@@ -3181,11 +2450,11 @@ exports[`TextArea > should render with AutoExpandMax 1`] = `
         </div>
       </div>
       <div
-        class="emotion-16 emotion-17"
+        class="emotion-12 emotion-13"
       >
         <div>
           <p
-            class="emotion-18 emotion-7"
+            class="emotion-14 emotion-3"
           >
             success
           </p>
@@ -3245,98 +2514,18 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -3348,35 +2537,23 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -3387,68 +2564,68 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
   padding-right: calc(1.5rem + 0px + 16px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3474,7 +2651,7 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3500,7 +2677,7 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
   right: 0.5rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   vertical-align: middle;
   fill: #b3144d;
   height: 1em;
@@ -3509,12 +2686,12 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
   min-height: 1em;
 }
 
-.emotion-14 .fillStroke {
+.emotion-10 .fillStroke {
   stroke: #b3144d;
   fill: none;
 }
 
-.emotion-16 {
+.emotion-12 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) min-content;
   gap: 0.5rem;
@@ -3528,7 +2705,7 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
   justify-content: normal;
 }
 
-.emotion-18 {
+.emotion-14 {
   color: #b3144d;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -3546,40 +2723,32 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":r18:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":r17:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="true"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="true"
           data-readonly="false"
           data-success="false"
-          id=":r17:"
+          id=":r18:"
           rows="2"
           style="height: 2px; max-height: calc(NaNpx + 2*0.75rem); min-height: calc(NaNpx + 2*0.75rem);"
         >
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         >
           <svg
-            class="emotion-14 emotion-15"
+            class="emotion-10 emotion-11"
             viewBox="0 0 20 20"
           >
             <path
@@ -3591,11 +2760,11 @@ exports[`TextArea > should render with AutoExpandMax and rows 1`] = `
         </div>
       </div>
       <div
-        class="emotion-16 emotion-17"
+        class="emotion-12 emotion-13"
       >
         <div>
           <p
-            class="emotion-18 emotion-7"
+            class="emotion-14 emotion-3"
           >
             success
           </p>
@@ -3655,98 +2824,18 @@ exports[`TextArea > should render with auto rows 1`] = `
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  color: #222638;
+  font-size: 1rem;
+  font-family: Inter,Asap,sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.5rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 0.25rem;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -webkit-box-pack: normal;
-  -ms-flex-pack: normal;
-  -webkit-justify-content: normal;
-  justify-content: normal;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.emotion-6 {
   color: #222638;
   font-size: 1rem;
   font-family: Inter,Asap,sans-serif;
@@ -3758,35 +2847,23 @@ exports[`TextArea > should render with auto rows 1`] = `
   text-decoration: none;
 }
 
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-6 {
-  color: #222638;
-  font-size: 1rem;
-  font-family: Inter,Asap,sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5rem;
-  text-transform: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 {
   width: 100%;
   resize: vertical;
   background: #ffffff;
@@ -3797,68 +2874,68 @@ exports[`TextArea > should render with auto rows 1`] = `
   padding-right: calc(1.5rem + 0px + 16px);
 }
 
-.emotion-10::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: #727683;
 }
 
-.emotion-10:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: #727683;
 }
 
-.emotion-10::placeholder {
+.emotion-6::placeholder {
   color: #727683;
 }
 
-.emotion-10[data-success='true'] {
+.emotion-6[data-success='true'] {
   border-color: #22674e;
 }
 
-.emotion-10[data-error='true'] {
+.emotion-6[data-error='true'] {
   border-color: #b3144d;
 }
 
-.emotion-10[data-readonly='true'] {
+.emotion-6[data-readonly='true'] {
   background: #f9f9fa;
   border-color: #d9dadd;
 }
 
-.emotion-10:disabled {
+.emotion-6:disabled {
   background: #f3f3f4;
   border-color: #e9eaeb;
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #b5b7bd;
 }
 
-.emotion-10:not(:disabled):hover {
+.emotion-6:not(:disabled):hover {
   border-color: #8c40ef;
 }
 
-.emotion-10:not(:disabled):focus {
+.emotion-6:not(:disabled):focus {
   outline: none;
   border-color: #8c40ef;
   box-shadow: 0px 0px 0px 3px #8c40ef40;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3884,7 +2961,7 @@ exports[`TextArea > should render with auto rows 1`] = `
   right: 0.5rem;
 }
 
-.emotion-12 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3910,7 +2987,7 @@ exports[`TextArea > should render with auto rows 1`] = `
   right: 0.5rem;
 }
 
-.emotion-14 {
+.emotion-10 {
   vertical-align: middle;
   fill: #b3144d;
   height: 1em;
@@ -3919,12 +2996,12 @@ exports[`TextArea > should render with auto rows 1`] = `
   min-height: 1em;
 }
 
-.emotion-14 .fillStroke {
+.emotion-10 .fillStroke {
   stroke: #b3144d;
   fill: none;
 }
 
-.emotion-16 {
+.emotion-12 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) min-content;
   gap: 0.5rem;
@@ -3938,7 +3015,7 @@ exports[`TextArea > should render with auto rows 1`] = `
   justify-content: normal;
 }
 
-.emotion-18 {
+.emotion-14 {
   color: #b3144d;
   font-size: 0.75rem;
   font-family: Inter,Asap,sans-serif;
@@ -3956,40 +3033,32 @@ exports[`TextArea > should render with auto rows 1`] = `
     <div
       class="emotion-0 emotion-1"
     >
-      <div
-        class="emotion-2 emotion-1"
+      <label
+        class="emotion-2 emotion-3"
+        for=":r10:"
       >
-        <div
-          class="emotion-4 emotion-1"
-        >
-          <label
-            class="emotion-6 emotion-7"
-            for=":rv:"
-          >
-            Test
-          </label>
-        </div>
-      </div>
+        Test
+      </label>
       <div
-        class="emotion-8 emotion-9"
+        class="emotion-4 emotion-5"
       >
         <textarea
           aria-invalid="true"
-          class="emotion-10 emotion-11"
+          class="emotion-6 emotion-7"
           data-error="true"
           data-readonly="false"
           data-success="false"
-          id=":rv:"
+          id=":r10:"
           rows="1"
           style="height: 2px; resize: none;"
         >
           test
         </textarea>
         <div
-          class="emotion-12 emotion-13"
+          class="emotion-8 emotion-9"
         >
           <svg
-            class="emotion-14 emotion-15"
+            class="emotion-10 emotion-11"
             viewBox="0 0 20 20"
           >
             <path
@@ -4001,11 +3070,11 @@ exports[`TextArea > should render with auto rows 1`] = `
         </div>
       </div>
       <div
-        class="emotion-16 emotion-17"
+        class="emotion-12 emotion-13"
       >
         <div>
           <p
-            class="emotion-18 emotion-7"
+            class="emotion-14 emotion-3"
           >
             success
           </p>

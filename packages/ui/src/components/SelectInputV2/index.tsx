@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
-import { AsteriskIcon } from '@ultraviolet/icons'
 import { useId, useRef } from 'react'
 import type { HTMLAttributes, ReactNode } from 'react'
+import { Label } from '../Label'
 import { Stack } from '../Stack'
 import { Text } from '../Text'
 import { Dropdown } from './Dropdown'
@@ -212,19 +212,15 @@ export const SelectInputV2 = <IsMulti extends undefined | boolean>({
           size={size}
         >
           <Stack gap={0.5} aria-label={ariaLabel}>
-            {label ? (
-              <Stack direction="row" gap={0.5}>
-                <Text
-                  as="label"
-                  variant={size === 'large' ? 'bodyStrong' : 'bodySmallStrong'}
-                  sentiment="neutral"
-                  prominence="strong"
-                >
-                  {label}
-                </Text>
-                {required ? <AsteriskIcon sentiment="danger" size={8} /> : null}
-                {labelDescription ?? null}
-              </Stack>
+            {label || labelDescription ? (
+              <Label
+                htmlFor={finalId}
+                labelDescription={labelDescription}
+                required={required}
+                size={size}
+              >
+                {label}
+              </Label>
             ) : null}
             <SelectBar
               size={size}
