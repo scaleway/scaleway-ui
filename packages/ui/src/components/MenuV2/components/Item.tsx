@@ -103,7 +103,9 @@ const StyledLinkItem = styled('a', {
 `
 
 type ItemProps = {
-  href?: string | undefined
+  href?: HTMLAnchorElement['href']
+  target?: HTMLAnchorElement['target']
+  rel?: HTMLAnchorElement['rel']
   disabled?: boolean | undefined
   tooltip?: string | undefined
   className?: string | undefined
@@ -123,6 +125,8 @@ const Item = forwardRef<HTMLElement, ItemProps>(
       onClick,
       sentiment = 'neutral',
       href,
+      target,
+      rel,
       children,
       tooltip,
       active,
@@ -154,6 +158,8 @@ const Item = forwardRef<HTMLElement, ItemProps>(
               data-active={active}
               borderless
               href={href}
+              target={target}
+              rel={rel}
               ref={ref as Ref<HTMLAnchorElement>}
               onClick={onClickHandle}
               role="menuitem"

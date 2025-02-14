@@ -123,6 +123,7 @@ const PlaygroundContent = ({ ...props }: ComponentProps<typeof Navigation>) => {
             label="Dedibox"
             id="dedibox"
             href="https://scaleway.com"
+            target="_blank"
             active={active === 'Dedibox'}
             onClickPinUnpin={onClickPinUnpin}
             onToggle={() => setActive('Dedibox')}
@@ -305,6 +306,7 @@ const PlaygroundContent = ({ ...props }: ComponentProps<typeof Navigation>) => {
           badgeText="new"
           badgeSentiment="success"
           href="http://scaleway.com"
+          target="_blank"
           active={active === 'Documentation'}
           onClickPinUnpin={onClickPinUnpin}
           onToggle={() => setActive('Documentation')}
@@ -313,6 +315,7 @@ const PlaygroundContent = ({ ...props }: ComponentProps<typeof Navigation>) => {
           label="Feature Request"
           id="feature-request"
           href="http://scaleway.com"
+          target="_blank"
           active={active === 'Feature Request'}
           onClickPinUnpin={onClickPinUnpin}
           onToggle={() => setActive('Feature Request')}

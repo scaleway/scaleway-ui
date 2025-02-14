@@ -300,7 +300,9 @@ type ItemProps = {
    * `@ultraviolet/ui`
    */
   badgeSentiment?: ComponentProps<typeof Badge>['sentiment']
-  href?: string
+  href?: HTMLAnchorElement['href']
+  target?: HTMLAnchorElement['target']
+  rel?: HTMLAnchorElement['rel']
   /**
    * This function will be triggered on click of the item. If the item is expandable
    * toggle will be passed with it.
@@ -362,6 +364,8 @@ export const Item = memo(
     badgeText,
     badgeSentiment,
     href,
+    target,
+    rel,
     onToggle,
     onClickPinUnpin,
     toggle,
@@ -543,7 +547,8 @@ export const Item = memo(
             onClick={triggerToggle}
             aria-expanded={ariaExpanded}
             href={href}
-            target={href ? '_blank' : undefined}
+            target={target}
+            rel={rel}
             data-is-pinnable={shouldShowPinnedButton}
             data-is-active={active}
             data-animation={shouldAnimate ? animation : undefined}
@@ -684,7 +689,7 @@ export const Item = memo(
                   ) : null}
                 </>
               ) : null}
-              {hasHrefAndNoChildren ? (
+              {hasHrefAndNoChildren && target === '_blank' ? (
                 <AnimatedIcon
                   sentiment="neutral"
                   prominence="default"
@@ -794,6 +799,8 @@ export const Item = memo(
       return (
         <StyledMenuItem
           href={href}
+          target={target}
+          rel={rel}
           borderless
           active={active}
           disabled={disabled}
@@ -823,7 +830,7 @@ export const Item = memo(
                   {badgeText}
                 </StyledBadge>
               ) : null}
-              {hasHrefAndNoChildren ? (
+              {hasHrefAndNoChildren && target === '_blank' ? (
                 <AnimatedIcon
                   sentiment="neutral"
                   prominence="weak"
@@ -892,7 +899,8 @@ export const Item = memo(
               alignItems="center"
               justifyContent="center"
               href={href}
-              target="_blank"
+              target={target}
+              rel={rel}
             >
               <AnimatedIcon sentiment="neutral" prominence="weak" />
             </Container>
