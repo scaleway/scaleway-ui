@@ -1222,10 +1222,10 @@ exports[`Table > Should render correctly with highlight animation on Table.Row 1
 .emotion-13 {
   vertical-align: middle;
   fill: #727683;
-  height: 1.25rem;
-  width: 1.25rem;
-  min-width: 1.25rem;
-  min-height: 1.25rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
 }
 
 .emotion-13 .fillStroke {
@@ -1800,10 +1800,10 @@ exports[`Table > Should render correctly with info 1`] = `
 .emotion-13 {
   vertical-align: middle;
   fill: #727683;
-  height: 1.25rem;
-  width: 1.25rem;
-  min-width: 1.25rem;
-  min-height: 1.25rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
 }
 
 .emotion-13 .fillStroke {
@@ -4310,7 +4310,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4474,7 +4474,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4556,7 +4556,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4638,7 +4638,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4720,7 +4720,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4802,7 +4802,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4884,7 +4884,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4966,7 +4966,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-57 emotion-58 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
