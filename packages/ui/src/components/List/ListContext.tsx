@@ -4,7 +4,6 @@ import {
   useContext,
   useEffect,
   useMemo,
-  useRef,
   useState,
 } from 'react'
 import type {
@@ -46,7 +45,8 @@ export type ListContextValue = {
   selectRow: (rowId: string) => void
   unselectAll: () => void
   unselectRow: (rowId: string) => void
-  refList: RefObject<HTMLInputElement[]>
+  refList: RefObject<HTMLInputElement>[]
+  setRefList: Dispatch<SetStateAction<RefObject<HTMLInputElement>[]>>
   handleOnChange: (value: string, checked: boolean) => void
 }
 
@@ -89,7 +89,7 @@ export const ListProvider = ({
   const [selectedRowIds, setSelectedRowIds] = useState<RowState>({})
   const [lastCheckedCheckbox, setLastCheckedCheckbox] = useState<string>()
   const [inRange, setInRange] = useState<Set<number | string>>(new Set([]))
-  const refList = useRef<HTMLInputElement[]>([])
+  const [refList, setRefList] = useState<RefObject<HTMLInputElement>[]>([])
 
   const registerExpandableRow = useCallback(
     (rowId: string, expanded = false) => {
@@ -193,76 +193,84 @@ export const ListProvider = ({
 
   const subscribeHandler = useCallback(() => {
     const handlers: (() => void)[] = []
+    // Ensure that only existing checkboxes are in refList
+    const updatedRefList = [
+      ...new Set(
+        refList.filter(
+          checkbox => document.contains(checkbox.current) && checkbox.current,
+        ),
+      ),
+    ]
 
-    if (refList.current) {
-      // Ensure that only existing checkboxes are in refList
-      refList.current = refList.current.filter(checkbox =>
-        document.contains(checkbox),
-      )
+    setRefList(updatedRefList)
+    const handleClickRange = (
+      currentCheckbox: HTMLInputElement,
+      index: number,
+      isShiftPressed: boolean,
+    ) => {
+      if (isShiftPressed) {
+        const checkboxesInRange: string[] = []
 
-      const handleClickRange = (
-        currentCheckbox: HTMLInputElement,
-        index: number,
-        isShiftPressed: boolean,
-      ) => {
-        if (isShiftPressed) {
-          const checkboxesInRange: string[] = []
+        // Get the index of the lastCheckedCheckbox
+        const targetCheckbox = updatedRefList.find(
+          checkbox => checkbox.current.value === lastCheckedCheckbox,
+        )
+        const lastCheckedIndex = targetCheckbox
+          ? updatedRefList.indexOf(targetCheckbox)
+          : undefined
 
-          // Get the index of the lastCheckedCheckbox
-          const targetCheckbox = refList.current.find(
-            checkbox => checkbox.value === lastCheckedCheckbox,
-          )
-          const lastCheckedIndex = targetCheckbox
-            ? refList.current.indexOf(targetCheckbox)
-            : undefined
+        if (lastCheckedIndex !== undefined) {
+          const start =
+            Math.min(lastCheckedIndex, index) -
+            (Math.min(lastCheckedIndex, index) === index ? 1 : 0)
+          const end = Math.max(lastCheckedIndex, index)
 
-          if (lastCheckedIndex !== undefined) {
-            const start =
-              Math.min(lastCheckedIndex, index) -
-              (Math.min(lastCheckedIndex, index) === index ? 1 : 0)
-            const end = Math.max(lastCheckedIndex, index)
-
-            refList.current.forEach((checkbox, key) => {
-              if (start < key && key <= end) {
-                if (!checkbox.disabled) {
-                  checkboxesInRange.push(checkbox.value)
-                }
+          updatedRefList.forEach((checkbox, key) => {
+            if (start < key && key <= end) {
+              if (!checkbox.current.disabled) {
+                checkboxesInRange.push(checkbox.current.value)
               }
-            })
+            }
+          })
 
-            selectRows(checkboxesInRange, currentCheckbox.checked) //  (un)selects the rows in the range
-            setLastCheckedCheckbox(currentCheckbox.value)
-          }
-        } else if (index === 0) setLastCheckedCheckbox(undefined)
-
-        /**
-         * Handle the case when there is multiple selected value during a time, and the user click without shift event
-         */
-        setTimeout(() => {
-          // clean up
-          setInRange(new Set([]))
+          selectRows(checkboxesInRange, currentCheckbox.checked) //  (un)selects the rows in the range
           setLastCheckedCheckbox(currentCheckbox.value)
-        }, 1)
-      }
-      refList.current.forEach((checkbox, index) => {
-        function clickHandler(this: HTMLInputElement, event: MouseEvent) {
-          handleClickRange(this, index, event.shiftKey)
         }
+      } else if (index === 0) setLastCheckedCheckbox(undefined)
 
-        checkbox.addEventListener('click', clickHandler)
+      /**
+       * Handle the case when there is multiple selected value during a time, and the user click without shift event
+       */
+      setTimeout(() => {
+        // clean up
+        setInRange(new Set([]))
+        setLastCheckedCheckbox(currentCheckbox.value)
+      }, 1)
+    }
+    refList.forEach((checkbox, index) => {
+      function clickHandler(this: HTMLInputElement, event: MouseEvent) {
+        handleClickRange(this, index, event.shiftKey)
+      }
+      if (checkbox.current) {
+        checkbox.current.addEventListener('click', clickHandler)
 
         handlers.push(() => {
-          checkbox.removeEventListener('click', clickHandler)
+          if (checkbox.current) {
+            checkbox.current.removeEventListener('click', clickHandler)
+          }
         })
-      })
-    }
+      }
+    })
 
     return () => {
       handlers.forEach(cleanup => cleanup())
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lastCheckedCheckbox, selectRows])
 
-  useEffect(subscribeHandler, [subscribeHandler])
+  useEffect(() => {
+    subscribeHandler()
+  }, [subscribeHandler])
 
   const handleOnChange = useCallback(
     (value: string, checked: boolean) => {
@@ -271,14 +279,6 @@ export const ListProvider = ({
     },
     [selectRows],
   )
-
-  useEffect(() => {
-    // Re-arrange refList everytime it is modified in order to keep the write order of the elements in it.
-    const allCheckboxes = [
-      ...document.querySelectorAll('input[type="checkbox"]:not([value="all"])'),
-    ].map(element => element as HTMLInputElement)
-    refList.current = allCheckboxes.map(checkbox => checkbox)
-  }, [refList.current.length])
 
   const value = useMemo<ListContextValue>(
     () => ({
@@ -300,6 +300,7 @@ export const ListProvider = ({
       unselectAll,
       unselectRow,
       refList,
+      setRefList,
       handleOnChange,
     }),
     [

@@ -1,7 +1,7 @@
 import type { Theme } from '@emotion/react'
 import { keyframes, useTheme } from '@emotion/react'
 import styled from '@emotion/styled'
-import type { ReactNode } from 'react'
+import type { ReactNode, RefObject } from 'react'
 import { Children, useCallback, useEffect, useRef } from 'react'
 import { Button } from '../Button'
 import { Checkbox } from '../Checkbox'
@@ -135,6 +135,7 @@ export const Row = ({
     inRange,
     columns,
     refList,
+    setRefList,
     handleOnChange,
   } = useTableContext()
 
@@ -177,13 +178,14 @@ export const Row = ({
     Children.count(children) + (selectable ? 1 : 0) + (expandButton ? 1 : 0)
 
   useEffect(() => {
-    const refAtEffectStart = refList.current
-    const { current } = checkboxRowRef
-
-    if (refAtEffectStart && current && !refAtEffectStart.includes(current)) {
-      refList.current.push(current)
+    if (
+      refList &&
+      checkboxRowRef.current !== null &&
+      !refList.includes(checkboxRowRef as RefObject<HTMLInputElement>)
+    ) {
+      setRefList([...refList, checkboxRowRef as RefObject<HTMLInputElement>])
     }
-  }, [refList])
+  }, [refList, setRefList])
 
   return (
     <>

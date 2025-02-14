@@ -1,7 +1,7 @@
 import type { Theme } from '@emotion/react'
 import { keyframes, useTheme } from '@emotion/react'
 import styled from '@emotion/styled'
-import type { ReactNode } from 'react'
+import type { ReactNode, RefObject } from 'react'
 import {
   Children,
   forwardRef,
@@ -253,6 +253,7 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
       inRange,
       columns,
       refList,
+      setRefList,
       handleOnChange,
     } = useListContext()
 
@@ -297,13 +298,13 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
     const canClickRowToExpand = !disabled && !!expandable && !expandButton
 
     useEffect(() => {
-      const refAtEffectStart = refList.current
-      const { current } = checkboxRef
-
-      if (refAtEffectStart && current && !refAtEffectStart.includes(current)) {
-        refList.current.push(current)
+      if (
+        checkboxRef.current !== null &&
+        !refList.includes(checkboxRef as RefObject<HTMLInputElement>)
+      ) {
+        setRefList([...refList, checkboxRef as RefObject<HTMLInputElement>])
       }
-    }, [refList])
+    }, [refList, setRefList])
 
     const childrenLength =
       Children.count(children) + (selectable ? 1 : 0) + (expandButton ? 1 : 0)

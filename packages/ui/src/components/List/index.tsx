@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import type { Dispatch, ReactNode, SetStateAction } from 'react'
-import { forwardRef } from 'react'
+import React, { forwardRef, useEffect, useState } from 'react'
 import { Cell } from './Cell'
 import { HeaderCell } from './HeaderCell'
 import { HeaderRow } from './HeaderRow'
@@ -10,7 +10,7 @@ import { SelectBar } from './SelectBar'
 import { SkeletonRows } from './SkeletonRows'
 import type { ColumnProps } from './types'
 
-const TableContainer = styled.div`
+const TableContainerStyle = styled.div`
   min-width: 100%;
   width: 100%;
   overflow-x: auto;
@@ -43,6 +43,25 @@ type ListProps = {
    * Action when selection changes (get the list of selected rows)
    */
   onSelectedChange?: Dispatch<SetStateAction<string[]>>
+}
+
+const TableContainer = ({ children }: { children: ReactNode }) => {
+  const [childrenMemory, setChildrenMemory] = useState<ReactNode[]>(
+    React.Children.toArray(children),
+  )
+
+  const { setRefList } = useListContext()
+
+  // Reset ref list when children change
+  useEffect(() => {
+    if (React.Children.toArray(children) !== childrenMemory) {
+      setRefList([])
+      setChildrenMemory(React.Children.toArray(children))
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [children, setRefList])
+
+  return <TableContainerStyle>{children}</TableContainerStyle>
 }
 
 const BaseList = forwardRef<HTMLTableElement, ListProps>(

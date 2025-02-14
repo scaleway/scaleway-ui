@@ -1,6 +1,8 @@
 import { useTheme } from '@emotion/react'
 import styled from '@emotion/styled'
-import { forwardRef } from 'react'
+import type { ReactNode } from 'react'
+import React, { forwardRef, useEffect, useState } from 'react'
+import { useListContext } from '../List/ListContext'
 import { Body } from './Body'
 import { Cell } from './Cell'
 import { Header } from './Header'
@@ -14,7 +16,7 @@ import type { TableProviderProps } from './TableContext'
 import { EXPANDABLE_COLUMN_SIZE, SELECTABLE_CHECKBOX_SIZE } from './constants'
 import type { ColumnProps } from './types'
 
-const TableContainer = styled.div`
+const TableContainerStyle = styled.div`
   min-width: 100%;
   overflow-x: auto;
   width: 100%;
@@ -90,6 +92,25 @@ type TableProps = Omit<
   autoCollapse?: boolean
   expandButton?: boolean
   columns: ColumnProps[]
+}
+
+const TableContainer = ({ children }: { children: ReactNode }) => {
+  const [childrenMemory, setChildrenMemory] = useState<ReactNode[]>(
+    React.Children.toArray(children),
+  )
+
+  const { setRefList } = useListContext()
+
+  // Reset ref list when children change
+  useEffect(() => {
+    if (React.Children.toArray(children) !== childrenMemory) {
+      setRefList([])
+      setChildrenMemory(React.Children.toArray(children))
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [children, setRefList])
+
+  return <TableContainerStyle>{children}</TableContainerStyle>
 }
 
 export const BaseTable = forwardRef<HTMLTableElement, TableProps>(
