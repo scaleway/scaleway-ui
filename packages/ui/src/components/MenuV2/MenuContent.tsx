@@ -22,7 +22,7 @@ import type { MenuProps } from './types'
 
 const StyledPopup = styled(Popup, {
   shouldForwardProp: prop => !['size', 'searchable'].includes(prop),
-})<{ size: keyof typeof SIZES; searchable: boolean }>`
+})<{ size?: keyof typeof SIZES; searchable: boolean }>`
   background-color: ${({ theme }) => theme.colors.other.elevation.background.raised};
   box-shadow: ${({ theme }) => `${theme.shadows.raised[0]}, ${theme.shadows.raised[1]}`};
   padding: 0;
@@ -34,8 +34,9 @@ const StyledPopup = styled(Popup, {
     }
   }
 
-  width: ${({ size }) => SIZES[size]};
-  max-width: none;
+  min-width: ${SIZES.small};
+  max-width: ${SIZES.large};
+  ${({ size }) => (size ? `width: ${SIZES[size]};` : null)}
   ${({ searchable }) => (searchable ? `min-width: 20rem` : null)};
   padding: ${({ theme }) => `${theme.space['0.25']} 0`};
 `
@@ -85,7 +86,7 @@ export const Menu = forwardRef(
       maxHeight,
       maxWidth,
       portalTarget = document.body,
-      size = 'small',
+      size,
       triggerMethod = 'click',
       dynamicDomRendering,
       align,

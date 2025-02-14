@@ -1,4 +1,5 @@
 import { Tabs } from '..'
+import { Badge } from '../../Badge'
 import { Template } from './Template.stories'
 
 export const Showcase = Template.bind({})
@@ -46,6 +47,9 @@ Showcase.args = {
     </Tabs.Tab>,
     <Tabs.Tab key="9" value="9" counter={10}>
       Choice 9
+    </Tabs.Tab>,
+    <Tabs.Tab key="10" value="10">
+      Lots of info <Badge>New badge very long</Badge>
     </Tabs.Tab>,
   ],
   selected: 1,

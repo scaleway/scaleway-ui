@@ -44,6 +44,9 @@ export type MenuProps = {
    * behavior by setting a portalTarget prop.
    */
   portalTarget?: HTMLElement
+  /**
+   * @deprecated The size of the menu is automatic now to fit the content. Use this prop to set a fixed size.
+   */
   size?: keyof typeof SIZES
   /**
    * The behavior of the menu when it is opened. If set to `click`, the menu will open when the user clicks on the disclosure.

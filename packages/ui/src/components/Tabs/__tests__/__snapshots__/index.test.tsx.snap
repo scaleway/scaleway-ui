@@ -2284,8 +2284,8 @@ exports[`Tabs > renders correctly with Tabs with prop 1`] = `
   background-color: #ffffff;
   box-shadow: 0px 4px 8px 0px #22263829,0px 8px 24px 0px #2226383d;
   padding: 0;
-  width: 11.25rem;
-  max-width: none;
+  min-width: 11.25rem;
+  max-width: 23.75rem;
   padding: 0.125rem 0;
 }
 
@@ -2507,8 +2507,8 @@ exports[`Tabs > renders correctly with Tabs with prop 1`] = `
   background-color: #ffffff;
   box-shadow: 0px 4px 8px 0px #22263829,0px 8px 24px 0px #2226383d;
   padding: 0;
-  width: 11.25rem;
-  max-width: none;
+  min-width: 11.25rem;
+  max-width: 23.75rem;
   padding: 0.125rem 0;
 }
 
@@ -3428,8 +3428,8 @@ exports[`Tabs > renders correctly with Tabs with prop 1`] = `
   background-color: #ffffff;
   box-shadow: 0px 4px 8px 0px #22263829,0px 8px 24px 0px #2226383d;
   padding: 0;
-  width: 11.25rem;
-  max-width: none;
+  min-width: 11.25rem;
+  max-width: 23.75rem;
   padding: 0.125rem 0;
 }
 

@@ -5,7 +5,10 @@ export const Playground = Template.bind({})
 
 Playground.args = {
   children: [
-    <MenuV2.Item borderless>Information with a long name</MenuV2.Item>,
+    <MenuV2.Item borderless>
+      Information with a very long name. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+    </MenuV2.Item>,
     <MenuV2.Item borderless>Power on</MenuV2.Item>,
   ],
 }
