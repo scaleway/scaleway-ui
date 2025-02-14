@@ -108,7 +108,8 @@ const findOffsetParent = (element: RefObject<HTMLDivElement>) => {
 /**
  * This function will check if there is an overflow of the popup compared to the parent it is set in.
  * Depending on the position, for top and bottom the overflow will be on X axis and for left and right
- * the overflow will be Y axis. The function return the number of pixels the popup is overflowing.
+ * the overflow will be Y axis. The function return the number of pixels the popup is overflowing
+ * and that needs to be reajusted.
  * @param position the position of the popup
  * @param offsetParentRect the rect of the parent element where the children is located in
  * @param childrenRect the rect of the children element, the children element is the one that will trigger the popup
@@ -116,7 +117,7 @@ const findOffsetParent = (element: RefObject<HTMLDivElement>) => {
  */
 const getPopupOverflowFromParent = (
   position: 'top' | 'right' | 'bottom' | 'left',
-  offsetParentRect: DOMRect,
+  offsetParentRect: { top: number; left: number; right: number },
   childrenRect: DOMRect,
   popupStructuredRef: DOMRect,
   arrowWidth: number,
@@ -217,8 +218,9 @@ export const computePositions = ({
   const offsetParentRect = offsetParent?.getBoundingClientRect() ?? {
     top: 0,
     left: 0,
-    right: 0,
+    right: window?.innerWidth ?? 0,
   }
+
   const popupStructuredRef = (
     popupRef.current as HTMLDivElement
   ).getBoundingClientRect()
@@ -266,15 +268,13 @@ export const computePositions = ({
     ? childrenRight
     : childrenLeft - parentLeft + childrenWidth
 
-  const popupOverflow = isPopupPortalTargetBody
-    ? 0
-    : getPopupOverflowFromParent(
-        placementBasedOnWindowSize,
-        offsetParentRect,
-        childrenRect,
-        popupStructuredRef,
-        arrowWidth,
-      )
+  const popupOverflow = getPopupOverflowFromParent(
+    placementBasedOnWindowSize,
+    offsetParentRect,
+    childrenRect,
+    popupStructuredRef,
+    arrowWidth,
+  )
 
   const isAligned = align === 'start'
 
