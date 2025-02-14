@@ -1,7 +1,7 @@
 import type { Theme } from '@emotion/react'
 import { keyframes, useTheme } from '@emotion/react'
 import styled from '@emotion/styled'
-import type { ReactNode } from 'react'
+import type { ReactNode, RefObject } from 'react'
 import {
   Children,
   forwardRef,
@@ -250,9 +250,11 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
       registerSelectableRow,
       selectedRowIds,
       expandButton,
-      mapCheckbox,
       inRange,
       columns,
+      refList,
+      setRefList,
+      handleOnChange,
     } = useListContext()
 
     const theme = useTheme()
@@ -296,16 +298,13 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
     const canClickRowToExpand = !disabled && !!expandable && !expandButton
 
     useEffect(() => {
-      const { current } = checkboxRef
-
-      if (current) {
-        mapCheckbox.set(id, current)
+      if (
+        checkboxRef.current !== null &&
+        !refList.includes(checkboxRef as RefObject<HTMLInputElement>)
+      ) {
+        setRefList([...refList, checkboxRef as RefObject<HTMLInputElement>])
       }
-
-      return () => {
-        mapCheckbox.delete(id)
-      }
-    }, [mapCheckbox, id])
+    }, [refList, setRefList])
 
     const childrenLength =
       Children.count(children) + (selectable ? 1 : 0) + (expandButton ? 1 : 0)
@@ -361,6 +360,7 @@ export const Row = forwardRef<HTMLTableRowElement, RowProps>(
                     ref={checkboxRef}
                     disabled={isSelectDisabled}
                     inRange={inRange?.has(id)}
+                    onChange={() => handleOnChange(id, selectedRowIds[id])}
                   />
                 </Tooltip>
               </StyledCheckboxContainer>

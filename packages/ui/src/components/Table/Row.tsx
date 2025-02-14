@@ -1,7 +1,7 @@
 import type { Theme } from '@emotion/react'
 import { keyframes, useTheme } from '@emotion/react'
 import styled from '@emotion/styled'
-import type { ReactNode } from 'react'
+import type { ReactNode, RefObject } from 'react'
 import { Children, useCallback, useEffect, useRef } from 'react'
 import { Button } from '../Button'
 import { Checkbox } from '../Checkbox'
@@ -132,9 +132,11 @@ export const Row = ({
     registerSelectableRow,
     selectedRowIds,
     expandButton,
-    mapCheckbox,
     inRange,
     columns,
+    refList,
+    setRefList,
+    handleOnChange,
   } = useTableContext()
 
   const checkboxRowRef = useRef<HTMLInputElement>(null)
@@ -170,22 +172,20 @@ export const Row = ({
 
   const canClickRowToExpand = hasExpandable && !expandButton
 
-  useEffect(() => {
-    const { current } = checkboxRowRef
-
-    if (current) {
-      mapCheckbox.set(id, current)
-    }
-
-    return () => {
-      mapCheckbox.delete(id)
-    }
-  }, [mapCheckbox, id])
-
   const theme = useTheme()
 
   const childrenLength =
     Children.count(children) + (selectable ? 1 : 0) + (expandButton ? 1 : 0)
+
+  useEffect(() => {
+    if (
+      refList &&
+      checkboxRowRef.current !== null &&
+      !refList.includes(checkboxRowRef as RefObject<HTMLInputElement>)
+    ) {
+      setRefList([...refList, checkboxRowRef as RefObject<HTMLInputElement>])
+    }
+  }, [refList, setRefList])
 
   return (
     <>
@@ -215,6 +215,7 @@ export const Row = ({
                   inRange={inRange?.has(id)}
                   disabled={selectDisabled !== undefined}
                   ref={checkboxRowRef}
+                  onChange={() => handleOnChange(id, selectedRowIds[id])}
                 />
               </Tooltip>
             </StyledCheckboxContainer>

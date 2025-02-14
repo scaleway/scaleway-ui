@@ -4081,19 +4081,6 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
   fill: #ffebf2;
 }
 
-.emotion-54 svg {
-  padding: 0.125rem;
-  outline: 1px inset #8c40ef;
-  box-shadow: 0px 0px 0px 3px #8c40ef40;
-  -webkit-transition: box-shadow 250ms ease,outline 250ms ease,padding 250ms ease;
-  transition: box-shadow 250ms ease,outline 250ms ease,padding 250ms ease;
-}
-
-.emotion-54 svg rect {
-  fill: #e5dbfd;
-  stroke: #792dd4;
-}
-
 .emotion-62 {
   display: table-cell;
   vertical-align: middle;
@@ -4108,144 +4095,6 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
   padding: 0.5rem;
   font-size: 0.875rem;
   text-align: left;
-}
-
-.emotion-132 {
-  position: relative;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.emotion-132 .eqr7bqq4 {
-  cursor: pointer;
-}
-
-.emotion-132[aria-disabled='true'] {
-  cursor: not-allowed;
-  color: #b5b7bd;
-}
-
-.emotion-132[aria-disabled='true'] .eqr7bqq4 {
-  cursor: not-allowed;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-16 {
-  fill: #e9eaeb;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-16 .emotion-18 {
-  stroke: #d9dadd;
-  fill: #f3f3f4;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14[aria-invalid="true"]:checked+.emotion-16 {
-  fill: #ffd3e3;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14[aria-invalid="true"]:checked+.emotion-16 .emotion-18 {
-  stroke: #ffd3e3;
-  fill: #ffd3e3;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14[aria-invalid="true"]+.emotion-16 {
-  fill: #ffebf2;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14[aria-invalid="true"]+.emotion-16 .emotion-18 {
-  stroke: #ffbbd3;
-  fill: #ffebf2;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14:checked+.emotion-16 {
-  fill: #e5dbfd;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14:checked+.emotion-16 .emotion-18 {
-  stroke: #d8c5fc;
-  fill: #d8c5fc;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14[aria-checked="mixed"]+.emotion-16 {
-  fill: #e5dbfd;
-}
-
-.emotion-132[aria-disabled='true'] .emotion-14[aria-checked="mixed"]+.emotion-16 .emotion-18 {
-  stroke: #e5dbfd;
-  fill: #e5dbfd;
-}
-
-.emotion-132 .emotion-14:checked+.emotion-16 path {
-  transform-origin: center;
-  -webkit-transition: 200ms -webkit-transform ease-in-out;
-  transition: 200ms transform ease-in-out;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transform: translate(2px, 2px);
-  -moz-transform: translate(2px, 2px);
-  -ms-transform: translate(2px, 2px);
-  transform: translate(2px, 2px);
-}
-
-.emotion-132 .emotion-14:checked+.emotion-16 .emotion-18 {
-  fill: #8c40ef;
-  stroke: #8c40ef;
-}
-
-.emotion-132 .emotion-14[aria-invalid="true"]:checked+.emotion-16 .emotion-18 {
-  fill: #e51963;
-  stroke: #e51963;
-}
-
-.emotion-132 .emotion-14[aria-checked="mixed"]+.emotion-16 .emotion-20 {
-  fill: #ffffff;
-}
-
-.emotion-132 .emotion-14[aria-checked="mixed"]+.emotion-16 .emotion-18 {
-  fill: #8c40ef;
-  stroke: #8c40ef;
-}
-
-.emotion-132:hover[aria-disabled='false'] .emotion-14[aria-invalid='false'][aria-checked='false']+.emotion-16 .emotion-18 {
-  stroke: #792dd4;
-  fill: #e5dbfd;
-}
-
-.emotion-132:hover[aria-disabled='false'] .emotion-14[aria-invalid='false'][aria-checked='true']+.emotion-16 .emotion-18 {
-  stroke: #792dd4;
-  fill: #792dd4;
-}
-
-.emotion-132:hover[aria-disabled='false'] .emotion-14[aria-invalid='false'][aria-checked='mixed']+.emotion-16 .emotion-18 {
-  stroke: #792dd4;
-  fill: #792dd4;
-}
-
-.emotion-132:hover[aria-disabled='false'] .emotion-14[aria-invalid='true'][aria-checked='false']+.emotion-16 .emotion-18 {
-  stroke: #92103f;
-  fill: #ffd3e3;
-}
-
-.emotion-132:hover[aria-disabled='false'] .emotion-14[aria-invalid='true'][aria-checked='true']+.emotion-16 .emotion-18 {
-  stroke: #d6175c;
-  fill: #d6175c;
-}
-
-.emotion-132 .emotion-14[aria-invalid="true"]+.emotion-16 {
-  fill: #e51963;
-}
-
-.emotion-132 .emotion-14[aria-invalid="true"]+.emotion-16 .emotion-18 {
-  stroke: #e51963;
-  fill: #ffebf2;
 }
 
 <div
@@ -4462,11 +4311,11 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
                 <div
                   aria-disabled="false"
                   class="emotion-53 emotion-54 emotion-12"
-                  data-checked="true"
+                  data-checked="false"
                   data-error="false"
                 >
                   <input
-                    aria-checked="true"
+                    aria-checked="false"
                     aria-invalid="false"
                     aria-label="select"
                     class="emotion-13 emotion-14"
@@ -4625,7 +4474,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-132 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4707,7 +4556,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-132 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4789,7 +4638,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-132 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4871,7 +4720,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-132 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -4953,7 +4802,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-132 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -5035,7 +4884,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-132 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
@@ -5117,7 +4966,7 @@ exports[`Table > Should render correctly with selectable and shift click 1`] = `
               >
                 <div
                   aria-disabled="false"
-                  class="emotion-53 emotion-132 emotion-12"
+                  class="emotion-53 emotion-54 emotion-12"
                   data-checked="false"
                   data-error="false"
                 >
