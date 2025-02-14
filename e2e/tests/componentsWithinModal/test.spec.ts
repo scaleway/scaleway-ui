@@ -3,6 +3,8 @@ import { expect, test } from '@playwright/test'
 test('open modal, fill text inputs, close modal', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/componentsWithinModal`)
   await page.getByRole('button', { name: 'Open Modal' }).click()
+  await expect(page.locator('dialog')).toBeVisible()
+
   await page.getByLabel('First name').click()
   await page.getByLabel('First name').fill('Test First Name')
 
@@ -27,6 +29,7 @@ test('open modal, select an option, open nested modal through select input, clos
 }) => {
   await page.goto(`${baseURL}/componentsWithinModal`)
   await page.getByRole('button', { name: 'Open Modal' }).click()
+  await expect(page.locator('dialog')).toBeVisible()
 
   await page.getByTestId('select-input-color').click()
   await page.getByTestId('option-stack-red').locator('div').click()
@@ -41,4 +44,19 @@ test('open modal, select an option, open nested modal through select input, clos
 
   await page.getByLabel('close').click()
   await expect(page.locator('dialog')).not.toBeVisible()
+})
+
+test('open modal, click on select input, check that it opens, click outside, check that select input closes and modal is still open', async ({
+  page,
+  baseURL,
+}) => {
+  await page.goto(`${baseURL}/componentsWithinModal`)
+  await page.getByRole('button', { name: 'Open Modal' }).click()
+  await expect(page.locator('dialog')).toBeVisible()
+
+  await page.getByTestId('select-input-color').click()
+  await page.getByTestId('option-stack-red').locator('div').isVisible()
+  await page.getByLabel('First name').click()
+  await page.getByTestId('option-stack-red').locator('div').isHidden()
+  await expect(page.locator('dialog')).toBeVisible()
 })

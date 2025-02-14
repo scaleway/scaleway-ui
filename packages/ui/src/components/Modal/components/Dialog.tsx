@@ -182,6 +182,16 @@ export const Dialog = ({
     event.stopPropagation()
   }, [])
 
+  // We need to reverse the array as the last opened modal should be the first to be with normal size
+  // while the first opened modal should shrink
+  const realPosition = [...openedModals].findIndex(object => object.id === id)
+  const position = [...openedModals]
+    .reverse()
+    .findIndex(object => object.id === id) // reverse method mutate array so we need to create a new array
+  const modalAbove = openedModals[realPosition + 1]
+  const currentModalHeight = dialogRef.current?.offsetHeight
+  let top = 0
+
   // handle key up : used when having inputs in modals - useful for hideOnEsc
   const handleKeyUp: KeyboardEventHandler = useCallback(
     event => {
@@ -196,18 +206,17 @@ export const Dialog = ({
 
   const handleClose: MouseEventHandler = useCallback(
     event => {
-      event.stopPropagation()
-
       // if the user actually click outside of modal
       if (
         hideOnClickOutside &&
         dialogRef.current &&
-        !dialogRef.current.contains(event.target as Node)
+        !dialogRef.current.contains(event.target as Node) &&
+        position === 0
       ) {
         onCloseRef.current()
       }
     },
-    [hideOnClickOutside],
+    [hideOnClickOutside, position],
   )
 
   // Enable focus trap inside the modal
@@ -253,16 +262,6 @@ export const Dialog = ({
       event.preventDefault()
     }
   }, [])
-
-  // We need to reverse the array as the last opened modal should be the first to be with normal size
-  // while the first opened modal should shrink
-  const realPosition = [...openedModals].findIndex(object => object.id === id)
-  const position = [...openedModals]
-    .reverse()
-    .findIndex(object => object.id === id) // reverse method mutate array so we need to create a new array
-  const modalAbove = openedModals[realPosition + 1]
-  const currentModalHeight = dialogRef.current?.offsetHeight
-  let top = 0
 
   if (
     modalAbove?.ref &&
